@@ -4,51 +4,51 @@
   "batch": "Batch Number",
   "exercises": {
     "array-sum-test": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "create-object-test": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "every-nth-test": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "factorial-test": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "get-name-test": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "logical-operators": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "number-sum-test": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "return-a-function-test": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "return-a-string-test": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "return-true-test": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "stack-test": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "sum-test": {
-      "completed": false,
+      "completed": true,
       "rating": null
     }
   }

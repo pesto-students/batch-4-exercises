@@ -42,7 +42,28 @@ describe('stack test', () => {
 
   test('should push elements to stack in order', () => {
     const actual = myStack.items;
-    const expected = [3, 2, 1];
+    const expected = [1, 2, 3];
+
+    expect(actual).toEqual(expected);
+  });
+
+  test('should return number of elements in stack', () => {
+    const actual = myStack.getLength();
+    const expected = 3;
+
+    expect(actual).toEqual(expected);
+  });
+
+  test('should return last element in stack', () => {
+    const actual = myStack.pop();
+    const expected = 3;
+
+    expect(actual).toEqual(expected);
+  });
+
+  test('should return top element in stack', () => {
+    const actual = myStack.peek();
+    const expected = 3;
 
     expect(actual).toEqual(expected);
   });

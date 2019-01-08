@@ -10,7 +10,7 @@ const factorial = (number) => {
 
 
 describe('factorial test', () => {
-  test('should find factorial of an integer', () => {
+  test('should find factorial of a positive integer', () => {
     const actual = factorial(5);
     const expected = 120;
 
@@ -19,6 +19,6 @@ describe('factorial test', () => {
 
   test('should find factorial of 0', () => {
     // delete next line and replace it with proper test
-    expect(true).toEqual(false);
+    expect(factorial(0)).toBe(1);
   });
 });
