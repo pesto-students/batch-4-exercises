@@ -1,4 +1,4 @@
-const returnAString = () => 'helloworld';
+const returnAString = () => 'hello word';
 
 describe('returnAString', () => {
   test('should return a string', () => {

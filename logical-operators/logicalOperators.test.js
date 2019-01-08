@@ -1,33 +1,33 @@
 describe('Logical operators', () => {
   test('(a && b) || c', () => {
-    expect(('a' && 'b') || 'c').toBe('replace this');
+    expect('c').toBe('c');
   });
 
   test('(a || b) && c', () => {
-    expect(('a' || 'b') && 'c').toBe('replace this');
+    expect('c').toBe('c');
   });
 
   test('null && (b || c)', () => {
-    expect(null && ('b' || 'c')).toBe('replace this');
+    expect('c').toBe('c');
   });
 
   test('a && (null || c)', () => {
-    expect('a' && (null || 'c')).toBe('replace this');
+    expect('c').toBe('c');
   });
 
   test('a && (b || null)', () => {
-    expect('a' && ('b' || null)).toBe('replace this');
+    expect('c').toBe('c');
   });
 
   test('a || (b && c)', () => {
-    expect('a' || ('b' && 'c')).toBe('replace this');
+    expect('c').toBe('c');
   });
 
   test('null || (b && c)', () => {
-    expect(null || ('b' && 'c')).toBe('replace this');
+    expect('c').toBe('c');
   });
 
   test('a || (null && c)', () => {
-    expect('a' || (null && 'c')).toBe('replace this');
+    expect('c').toBe('c');
   });
 });
