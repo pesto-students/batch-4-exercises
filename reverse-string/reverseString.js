@@ -1,8 +1,8 @@
-
-function reverseString(...args) {
-  return args;
+function reverseString(str) {
+  return str
+    .split('')
+    .reverse()
+    .join('');
 }
 
-export {
-  reverseString,
-};
+export { reverseString };

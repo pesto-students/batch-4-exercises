@@ -1,8 +1,15 @@
+function isPalindrome(str) {
+  const newStr = str
+    .toString()
+    .replace(/[^a-zA-Z0-9]/g, '')
+    .toLowerCase();
 
-function isPalindrome(...args) {
-  return args;
+  return (
+    newStr
+      .split('')
+      .reverse()
+      .join('') === newStr
+  );
 }
 
-export {
-  isPalindrome,
-};
+export { isPalindrome };
