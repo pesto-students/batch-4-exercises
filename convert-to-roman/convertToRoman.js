@@ -1,8 +1,5 @@
-
 function convertToRoman(...args) {
   return args;
 }
 
-export {
-  convertToRoman,
-};
+export { convertToRoman };

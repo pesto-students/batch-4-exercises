@@ -8,11 +8,11 @@
       "rating": null
     },
     "is-palindrome": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "diff-array": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "longest-word-in-string": {
@@ -28,7 +28,7 @@
       "rating": null
     },
     "get-index-to-ins": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "repeat-string-num-times": {
@@ -36,11 +36,11 @@
       "rating": null
     },
     "binary-agent": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "bouncer": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "sum-all": {

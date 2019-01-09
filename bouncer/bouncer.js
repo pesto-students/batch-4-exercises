@@ -1,8 +1,5 @@
-
-function bouncer(...args) {
-  return args;
+function bouncer(args) {
+  return args.filter(item => !!item);
 }
 
-export {
-  bouncer,
-};
+export { bouncer };
