@@ -4,16 +4,16 @@
   "batch": "Batch Number",
   "exercises": {
     "factorial": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "is-odd": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "is-even": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "is-triangle": {
       "completed": false,
