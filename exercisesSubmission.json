@@ -52,16 +52,29 @@
       "rating": null
     },
     "rectangle-diagonal": {
+<<<<<<< HEAD
       "completed": true,
       "rating": 2
     },
     "three-sum": {
       "completed": true,
       "rating": 2
+=======
+      "completed": false,
+      "rating": null
+    },
+    "three-sum": {
+      "completed": false,
+      "rating": null
+>>>>>>> 489881147db3a22d47b897bf4b1764e1a5c9b729
     },
     "sum-of-perfect-squares": {
       "completed": false,
       "rating": null
     }
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 489881147db3a22d47b897bf4b1764e1a5c9b729

@@ -1,9 +1,4 @@
-function applyOperator(op, ...args) {
-  // switch (op) {
-  //   case '+':
-  //   case '-': {
-  //   }
-  // }
+function applyOperator(...args) {
   return args;
 }
 
