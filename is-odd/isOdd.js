@@ -1,6 +1,10 @@
 
 function isOdd(...args) {
-  return args;
+  if ((args[0] %2) == 1) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 export {
