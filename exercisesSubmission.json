@@ -4,8 +4,8 @@
   "batch": "Batch Number",
   "exercises": {
     "reverse-string": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "is-palindrome": {
       "completed": false,
@@ -44,8 +44,8 @@
       "rating": null
     },
     "sum-all": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "pairwise": {
       "completed": false,
@@ -56,16 +56,16 @@
       "rating": null
     },
     "large-of-four": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "steamroll-array": {
       "completed": false,
       "rating": null
     },
     "rotated-string": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     }
   }
 }
