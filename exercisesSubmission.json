@@ -1,18 +1,18 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Prakhar Yadav",
+  "email": "prakharyadav.19@gmail.com",
+  "batch": "4",
   "exercises": {
     "factorial": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "is-odd": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "is-even": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "is-triangle": {
@@ -20,15 +20,15 @@
       "rating": null
     },
     "counter": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "counter-factory": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "limit-function-call-count": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "cache-function": {
@@ -40,7 +40,7 @@
       "rating": null
     },
     "boo-who": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "sum-fibs": {
@@ -52,7 +52,7 @@
       "rating": null
     },
     "rectangle-diagonal": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "three-sum": {

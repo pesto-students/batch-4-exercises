@@ -1,6 +1,6 @@
-
-function isOdd(...args) {
-  return args;
+import { isEven } from '../is-even/isEven';
+function isOdd(number) {
+  return !isEven(number);
 }
 
 export {
