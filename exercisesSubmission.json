@@ -4,15 +4,15 @@
   "batch": "Batch Number",
   "exercises": {
     "square-numbers-array": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "savings-account": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "request-validator": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "memoize": {

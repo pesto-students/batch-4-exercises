@@ -1,6 +1,10 @@
 
-function squareNumbersArray(...args) {
-  return args;
+function squareNumbersArray(...arr) {
+  arr.map((el) => {
+    if(typeof el != 'number'){
+      throw 'My custom error';
+    }
+  })
 }
 
 export {
