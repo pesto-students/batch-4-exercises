@@ -4,7 +4,7 @@
   "batch": "Batch Number",
   "exercises": {
     "slasher": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "chunk-array-in-groups": {
@@ -12,11 +12,11 @@
       "rating": null
     },
     "find-element": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "drop-elements": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "update-inventory": {
@@ -28,39 +28,39 @@
       "rating": null
     },
     "truth-check": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "orbital-period": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "object-keys": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "object-values": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "map-object": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "object-pairs": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "object-invert": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "object-defaults": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "user-check-password": {
-      "completed": false,
+      "completed": true,
       "rating": null
     }
   }

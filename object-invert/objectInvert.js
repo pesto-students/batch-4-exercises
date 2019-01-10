@@ -1,6 +1,11 @@
 
-function objectInvert(...args) {
-  return args;
+function objectInvert(obj) {
+  for(var index in obj){
+    obj[obj[index]] = index;
+    delete obj[index];
+  }
+
+  return obj;
 }
 
 export {
