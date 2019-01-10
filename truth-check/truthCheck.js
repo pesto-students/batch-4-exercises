@@ -1,8 +1,11 @@
+function truthCheck(users) {
+  const [firstUser, ...restOfUsers] = users;
 
-function truthCheck(...args) {
-  return args;
+  if (Object.keys(firstUser).every(key => Boolean(firstUser[key]))) {
+    const restUserKeys = Object.keys(firstUser);
+    return restOfUsers.every(user => restUserKeys.every(key => Boolean(user[key])));
+  }
+  return false;
 }
 
-export {
-  truthCheck,
-};
+export { truthCheck };

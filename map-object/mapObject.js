@@ -1,8 +1,12 @@
+function mapObject(obj, callback) {
+  const newObj = {};
+  for (const key in obj) {
+    if ({}.hasOwnProperty.call(obj, key)) {
+      newObj[key] = callback(obj[key]);
+    }
+  }
 
-function mapObject(...args) {
-  return args;
+  return newObj;
 }
 
-export {
-  mapObject,
-};
+export { mapObject };

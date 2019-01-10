@@ -1,66 +1,66 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Nitin Patel",
+  "email": "nitinpatel278@gmail.com",
+  "batch": "4",
   "exercises": {
     "slasher": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "chunk-array-in-groups": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "find-element": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "drop-elements": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "update-inventory": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "smallest-commons": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "truth-check": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "orbital-period": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "object-keys": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "object-values": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "map-object": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "object-pairs": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "object-invert": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "object-defaults": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "user-check-password": {
-      "completed": false,
+      "completed": true,
       "rating": null
     }
   }

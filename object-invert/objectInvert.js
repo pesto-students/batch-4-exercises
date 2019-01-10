@@ -1,8 +1,5 @@
-
-function objectInvert(...args) {
-  return args;
+function objectInvert(obj) {
+  return Object.entries(obj).reduce((acc, [key, value]) => ({ ...acc, [value]: key }), {});
 }
 
-export {
-  objectInvert,
-};
+export { objectInvert };
