@@ -1,10 +1,10 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Jithin Tom",
+  "email": "jithintom1@gmail.com",
+  "batch": "4",
   "exercises": {
     "square-numbers-array": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "savings-account": {
@@ -12,7 +12,7 @@
       "rating": null
     },
     "request-validator": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "memoize": {
