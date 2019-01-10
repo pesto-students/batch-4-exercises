@@ -1,14 +1,14 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Nitin Patel",
+  "email": "nitinpatel278@gmail.com",
+  "batch": "Batch 4",
   "exercises": {
     "square-numbers-array": {
       "completed": false,
       "rating": null
     },
     "savings-account": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "request-validator": {

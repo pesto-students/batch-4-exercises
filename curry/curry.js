@@ -1,8 +1,7 @@
-
-function curry(...args) {
-  return args;
+function curry(callback) {
+  return () => {
+    callback();
+  };
 }
 
-export {
-  curry,
-};
+export { curry };
