@@ -12,11 +12,11 @@
       "rating": null
     },
     "diff-array": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "longest-word-in-string": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "telephone-check": {
@@ -24,15 +24,15 @@
       "rating": null
     },
     "rot13": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "get-index-to-ins": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "repeat-string-num-times": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "binary-agent": {
@@ -56,15 +56,15 @@
       "rating": null
     },
     "large-of-four": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "steamroll-array": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "rotated-string": {
-      "completed": false,
+      "completed": true,
       "rating": null
     }
   }

@@ -1,9 +1,9 @@
 
 function largeOfFour(...args) {
-  a = args[0].sort((a,b)=>a-b).reverse()[0]
-  b = args[0].sort((a,b)=>a-b).reverse()[0]
-  c = args[0].sort((a,b)=>a-b).reverse()[0]
-  d = args[0].sort((a,b)=>a-b).reverse()[0]
+  var a = args[0][0].sort((a,b)=>a-b).reverse()[0]
+  var b = args[0][1].sort((a,b)=>a-b).reverse()[0]
+  var c = args[0][2].sort((a,b)=>a-b).reverse()[0]
+  var d = args[0][3].sort((a,b)=>a-b).reverse()[0]
   return [a,b,c,d]
 }
 
