@@ -12,12 +12,12 @@
       "rating": null
     },
     "find-element": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "drop-elements": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "update-inventory": {
       "completed": false,
@@ -36,16 +36,16 @@
       "rating": null
     },
     "object-keys": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "object-values": {
       "completed": false,
       "rating": null
     },
     "map-object": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "object-pairs": {
       "completed": false,
@@ -56,8 +56,8 @@
       "rating": null
     },
     "object-defaults": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "user-check-password": {
       "completed": false,
