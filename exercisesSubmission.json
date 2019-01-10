@@ -4,7 +4,7 @@
   "batch": "Batch Number",
   "exercises": {
     "reverse-string": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "is-palindrome": {
@@ -12,11 +12,11 @@
       "rating": null
     },
     "diff-array": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "longest-word-in-string": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "telephone-check": {
@@ -24,15 +24,15 @@
       "rating": null
     },
     "rot13": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "get-index-to-ins": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "repeat-string-num-times": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "binary-agent": {
@@ -40,11 +40,11 @@
       "rating": null
     },
     "bouncer": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "sum-all": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "pairwise": {
@@ -52,19 +52,19 @@
       "rating": null
     },
     "convert-to-roman": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "large-of-four": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "steamroll-array": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "rotated-string": {
-      "completed": false,
+      "completed": true,
       "rating": null
     }
   }
