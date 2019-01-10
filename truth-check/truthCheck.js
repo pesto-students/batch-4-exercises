@@ -1,6 +1,6 @@
 
 function truthCheck(...args) {
-  return args;
+  const array = args[0]
 }
 
 export {

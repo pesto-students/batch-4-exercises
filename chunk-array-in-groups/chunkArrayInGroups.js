@@ -1,6 +1,6 @@
 
-function chunkArrayInGroups(...args) {
-  return args;
+function chunkArrayInGroups(array,chunkSize) {
+  array[]
 }
 
 export {

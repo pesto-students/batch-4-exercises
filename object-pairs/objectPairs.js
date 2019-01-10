@@ -1,6 +1,7 @@
 
 function objectPairs(...args) {
-  return args;
+  var obj = args[0]
+  return Object.entries(obj)
 }
 
 export {

@@ -1,6 +1,7 @@
 
 function objectValues(...args) {
-  return args;
+  var obj = args[0]
+  return Object.values(obj)
 }
 
 export {

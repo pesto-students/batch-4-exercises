@@ -1,10 +1,10 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Jithin Tom",
+  "email": "jithintom1@gmail.com",
+  "batch": "4",
   "exercises": {
     "slasher": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "chunk-array-in-groups": {
@@ -36,27 +36,27 @@
       "rating": null
     },
     "object-keys": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "object-values": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "map-object": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "object-pairs": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "object-invert": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "object-defaults": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "user-check-password": {
