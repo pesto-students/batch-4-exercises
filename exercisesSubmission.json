@@ -1,19 +1,19 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Ravi Kumar Prasad",
+  "email": "7ravikp@gmail.com",
+  "batch": "4",
   "exercises": {
     "square-numbers-array": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "savings-account": {
       "completed": false,
       "rating": null
     },
     "request-validator": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "memoize": {
       "completed": false,
@@ -28,8 +28,8 @@
       "rating": null
     },
     "alternating-characters": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     }
   }
 }
