@@ -1,8 +1,5 @@
-
-function truthCheck(...args) {
-  return args;
+function truthCheck(ary, val) {
+  return ary.every(item => !!item[val]);
 }
 
-export {
-  truthCheck,
-};
+export { truthCheck };

@@ -1,8 +1,5 @@
-
-function findElement(...args) {
-  return args;
+function findElement(ary, fn) {
+  return ary.find(item => fn(item));
 }
 
-export {
-  findElement,
-};
+export { findElement };
