@@ -4,7 +4,7 @@
   "batch": "Batch Number",
   "exercises": {
     "reverse-string": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "is-palindrome": {
@@ -12,11 +12,11 @@
       "rating": null
     },
     "diff-array": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "longest-word-in-string": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "telephone-check": {
@@ -32,15 +32,15 @@
       "rating": null
     },
     "repeat-string-num-times": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "binary-agent": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "bouncer": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "sum-all": {
@@ -56,7 +56,7 @@
       "rating": null
     },
     "large-of-four": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "steamroll-array": {

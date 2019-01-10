@@ -1,6 +1,5 @@
 
-function rotatedString(...args) {
-  return args;
+function rotatedString() {
 }
 
 export {
