@@ -1,6 +1,6 @@
 
-function findElement(...args) {
-  return args;
+function findElement(arr, isEven) {
+  return arr.find(element => isEven(element));
 }
 
 export {
