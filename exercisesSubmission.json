@@ -1,19 +1,19 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Ravi Kumar Prasad",
+  "email": "7ravikp@gmail.com",
+  "batch": "4",
   "exercises": {
     "boolean": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "days-in-month": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "json-parse": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "lowercase-keys": {
       "completed": false,
@@ -36,8 +36,8 @@
       "rating": null
     },
     "abbreviate-string": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "add-big-integers": {
       "completed": false,

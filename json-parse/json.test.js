@@ -1,9 +1,9 @@
 import {
   clubMember, objectSara, endDay, mikeStringified,
-} from './json';
+} from './json-data';
 
 describe('JSON edit', () => {
-  test('city param should exist on the json object', () => {
+  test('city yaryanparam should exist on the json object', () => {
     expect(clubMember.city).not.toBe(undefined);
   });
 });
