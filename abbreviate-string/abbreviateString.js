@@ -1,8 +1,13 @@
+function abbreviateString(name) {
+  if (typeof name !== 'string') {
+    throw new Error('only string are accepted');
+  }
 
-function abbreviateString(...args) {
-  return args;
+  const nameBreakDown = name.split(' ');
+  const firstname = nameBreakDown[0];
+  const lastName = nameBreakDown[nameBreakDown.length - 1];
+
+  return `${firstname} ${lastName[0].toUpperCase()}.`;
 }
 
-export {
-  abbreviateString,
-};
+export { abbreviateString };

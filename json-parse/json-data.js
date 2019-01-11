@@ -1,4 +1,3 @@
-
 const clubMember = {
   firstname: 'John',
   lastname: 'Doe',
@@ -8,16 +7,15 @@ const clubMember = {
 const Sara = '{ "height":1.9, "age":36, "eyeColor":"brown"}';
 
 // use JSON.parse() to create an object 'objectSara':
-const objectSara = `${Sara} add code here`;
+const objectSara = JSON.parse(Sara);
 
-
-// var myArray = [];
-// myArray[0] = 'Monday';
-// myArray[1] = 'Tuesday';
-// myArray[3] = 'Wednesday';
+const myArray = [];
+myArray[0] = 'Monday';
+myArray[1] = 'Tuesday';
+myArray[3] = 'Wednesday';
 // In many other programming languages, you can use textual keys to make arrays more descriptive:
 
-// myArray['startDay'] = 'Monday';
+myArray.startDay = 'Monday';
 // JavaScript does not directly support so-called associative arrays, but we can to some extent
 // simulate their behavior by using JSON notation.
 
@@ -31,8 +29,8 @@ const conference = {
 // You can access the individual properties of the object as if they were elements
 // in an associative array: `conference['startDay']`
 // Add a line of code to store the name of the conference's end day in variable endDayIs.
-const endDay = conference;
-
+// eslint-disable-next-line
+const endDay = conference.endDay;
 
 const Mike = {};
 Mike.height = 1.9;
@@ -40,11 +38,9 @@ Mike.age = 36;
 Mike.eyecolor = 'brown';
 
 // serialize the object using JSON.stringify():
-const mikeStringified = Sara;
+const mikeStringified = JSON.stringify(Mike);
 
+clubMember.city = '';
 export {
-  clubMember,
-  objectSara,
-  endDay,
-  mikeStringified,
+  clubMember, objectSara, endDay, mikeStringified,
 };

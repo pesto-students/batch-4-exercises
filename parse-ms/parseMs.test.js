@@ -80,13 +80,7 @@ describe('parseMs', () => {
     ].forEach((ms) => {
       const positive = parseMs(ms);
       const negative = parseMs(-ms);
-      [
-        'days',
-        'hours',
-        'minutes',
-        'seconds',
-        'milliseconds',
-      ].forEach((key) => {
+      ['days', 'hours', 'minutes', 'seconds', 'milliseconds'].forEach((key) => {
         expect(negative[key]).toBe(-positive[key]);
       });
     });

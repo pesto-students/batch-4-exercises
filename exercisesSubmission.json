@@ -1,58 +1,58 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Nitin Patel",
+  "email": "nitinpatel278@gmail.com",
+  "batch": "4",
   "exercises": {
     "boolean": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "days-in-month": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "json-parse": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "lowercase-keys": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "math-fns": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "parse-ms": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "round-to": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "time-was": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "abbreviate-string": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "add-big-integers": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "alien-alphabet": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "permutate-with-repetitions": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "throw-errors": {
-      "completed": false,
+      "completed": true,
       "rating": null
     }
   }

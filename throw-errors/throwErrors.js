@@ -1,8 +1,11 @@
-
-function throwErrors(...args) {
-  return args;
+function throwReferenceError() {
+  let errorName;
+  try {
+    throw new ReferenceError();
+  } catch (error) {
+    errorName = error.name;
+  }
+  return errorName;
 }
 
-export {
-  throwErrors,
-};
+export const errorName = throwReferenceError();
