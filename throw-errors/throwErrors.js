@@ -1,8 +1,12 @@
 
-function throwErrors(...args) {
-  return args;
+function errorName(...args) {
+  
+  return ('ReferenceError')
+
 }
 
+const errorName = ReferenceError
+
 export {
-  throwErrors,
+  errorName,
 };
