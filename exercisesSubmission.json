@@ -1,26 +1,26 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Prakhar Yadav",
+  "email": "prakharyadav.19@gmail.com",
+  "batch": "4",
   "exercises": {
     "boolean": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "days-in-month": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "json-parse": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "lowercase-keys": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "math-fns": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "parse-ms": {
@@ -36,7 +36,7 @@
       "rating": null
     },
     "abbreviate-string": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "add-big-integers": {
@@ -52,7 +52,7 @@
       "rating": null
     },
     "throw-errors": {
-      "completed": false,
+      "completed": true,
       "rating": null
     }
   }
