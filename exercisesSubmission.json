@@ -1,14 +1,14 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Aditya Saxena",
+  "email": "adityasmksaxena@gmail.com",
+  "batch": "Batch 4",
   "exercises": {
     "boolean": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "days-in-month": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "json-parse": {
@@ -16,11 +16,11 @@
       "rating": null
     },
     "lowercase-keys": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "math-fns": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "parse-ms": {
@@ -36,7 +36,7 @@
       "rating": null
     },
     "abbreviate-string": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "add-big-integers": {
