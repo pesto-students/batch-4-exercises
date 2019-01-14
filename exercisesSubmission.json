@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Ravi Kumar Prasad",
+  "email": "7ravikp@gmail.com",
+  "batch": "4",
   "exercises": {
     "bind": {
       "completed": false,
@@ -20,36 +20,36 @@
       "rating": null
     },
     "double-odd-numbers": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "instructor": {
       "completed": false,
       "rating": null
     },
     "join-arrays": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "map-filter-and-reduce": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "place-in-middle": {
       "completed": false,
       "rating": null
     },
     "print-full-name": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "sum-even-args": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "template-literals": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "template-tag-function": {
       "completed": false,
