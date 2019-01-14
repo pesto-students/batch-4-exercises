@@ -1,6 +1,9 @@
 
-function greet(...args) {
-  return args;
+function greet(subject) {
+  const salutation = new Promise((res)=>{
+    res('Hey '+ subject)
+  })
+  return salutation
 }
 
 export {
