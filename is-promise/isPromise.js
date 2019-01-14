@@ -1,6 +1,6 @@
 
-function isPromise(...args) {
-  return args;
+function isPromise(checkIfPromise) {
+  return checkIfPromise instanceof Promise;
 }
 
 export {
