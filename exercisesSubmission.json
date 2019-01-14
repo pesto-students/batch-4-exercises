@@ -1,47 +1,47 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Ravi Kumar Prasad",
+  "email": "7ravikp@gmail.com",
+  "batch": "4",
   "exercises": {
     "alphabetic-shift": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "all-promises": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "greet": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "reject-promise": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "queue": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "person": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "sequential-promise": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "timeout": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "is-promise": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "promise-all-props": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "sleep-promise": {
       "completed": false,
