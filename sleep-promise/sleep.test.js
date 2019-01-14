@@ -2,7 +2,6 @@ import { sleep } from './sleep';
 
 const { performance } = require('perf_hooks');
 
-
 test('async await', async () => {
   const start = performance.now();
   await sleep(20);
