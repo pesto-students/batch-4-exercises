@@ -1,6 +1,5 @@
 
-function allOfConditions(...args) {
-  return args;
+function allOfConditions(truthy,isDateInstance) {
 }
 
 export {

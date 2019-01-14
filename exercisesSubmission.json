@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Jithin Tom",
+  "email": "jithintom1@gmail.com",
+  "batch": "4",
   "exercises": {
     "bind": {
       "completed": false,
@@ -12,15 +12,15 @@
       "rating": null
     },
     "const-immutable": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "create-student": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "double-odd-numbers": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "instructor": {
@@ -28,11 +28,11 @@
       "rating": null
     },
     "join-arrays": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "map-filter-and-reduce": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "place-in-middle": {
@@ -40,15 +40,15 @@
       "rating": null
     },
     "print-full-name": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "sum-even-args": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "template-literals": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "template-tag-function": {
@@ -56,7 +56,7 @@
       "rating": null
     },
     "triple-and-filter": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "all-of-conditions": {
