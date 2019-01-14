@@ -1,8 +1,13 @@
+const not = val => !val;
 
-function allOfConditions(...args) {
-  return args;
+function allOfConditions(...argsFn) {
+  return (input) => {
+    for (const fn of argsFn) {
+      if (not(fn(input))) {
+        break;
+      }
+    }
+  };
 }
 
-export {
-  allOfConditions,
-};
+export { allOfConditions };

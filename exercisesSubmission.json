@@ -1,26 +1,26 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Aditya Saxena",
+  "email": "adityasmksaxena@gmail.com",
+  "batch": "4",
   "exercises": {
     "bind": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "block-scoping": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "const-immutable": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "create-student": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "double-odd-numbers": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "instructor": {
@@ -28,11 +28,11 @@
       "rating": null
     },
     "join-arrays": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "map-filter-and-reduce": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "place-in-middle": {
@@ -40,11 +40,11 @@
       "rating": null
     },
     "print-full-name": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "sum-even-args": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "template-literals": {
@@ -60,7 +60,7 @@
       "rating": null
     },
     "all-of-conditions": {
-      "completed": false,
+      "completed": true,
       "rating": null
     }
   }

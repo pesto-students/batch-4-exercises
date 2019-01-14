@@ -1,8 +1,5 @@
-
 function joinArrays(...args) {
-  return args;
+  return args.reduce((acc, itemAry) => [...acc, ...itemAry]);
 }
 
-export {
-  joinArrays,
-};
+export { joinArrays };
