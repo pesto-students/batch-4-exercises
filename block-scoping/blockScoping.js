@@ -1,6 +1,6 @@
 
-function blockScoping(...args) {
-  return args;
+function blockScoping(value) {
+  return value;
 }
 
 export {
