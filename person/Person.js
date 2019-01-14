@@ -1,8 +1,19 @@
+const isDigit = str => str.match(/^\d+$/);
+const addDigits = (a, b) => parseInt(a, 10) + parseInt(b, 10);
 
-function person(...args) {
-  return args;
+class Person {
+  constructor(firstName, lastName, dateOfBirth) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.dateOfBirth = dateOfBirth;
+  }
+
+  addDobDigits() {
+    return this.dateOfBirth
+      .split('')
+      .filter(isDigit)
+      .reduce(addDigits);
+  }
 }
 
-export {
-  person,
-};
+export { Person };

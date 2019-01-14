@@ -1,24 +1,14 @@
-function createSleepPromise(timeout) {
-  return new Promise((resolve) => {
-    setTimeout(resolve, timeout);
-  });
-}
+const createSleepPromise = time => new Promise(resolve => setTimeout(resolve, time));
 
-function sleep(timeout) {
-  const sleepPromise = createSleepPromise(timeout);
+const sleep = (time) => {
+  const sleepPromise = createSleepPromise(time);
 
-  // Pass value through, if used in a promise chain
-  function promiseFunction(value) {
-    return sleepPromise.then(() => value);
-  }
+  const imposterPromise = val => sleepPromise.then(() => val);
+  imposterPromise.then = args => sleepPromise.then(args);
 
-  // Normal promise
-  promiseFunction.then = (...args) => sleepPromise.then(...args);
-  promiseFunction.catch = Promise.resolve().catch;
-
-  return promiseFunction;
-}
-
-export {
-  sleep,
+  return imposterPromise;
 };
+
+sleep.then = () => Promise.resolve();
+
+export { sleep };

@@ -22,9 +22,9 @@ describe('sequentialPromise', () => {
 
     await expect(sequentialPromise([p1, p2, p3]) instanceof Promise).toBe(true);
 
-    await expect(sequentialPromise([p1, p2, p3]))
-      .resolves
-      .toBe('dude, wheres my car is a terrible movie');
+    await expect(sequentialPromise([p1, p2, p3])).resolves.toBe(
+      'dude, wheres my car is a terrible movie',
+    );
   });
 
   test('should resolve 2 promises in sequence and return a promise', async () => {
