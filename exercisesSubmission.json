@@ -1,66 +1,66 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Nitin Patel",
+  "email": "nitinpatel278@gmail.com",
+  "batch": "4",
   "exercises": {
     "bind": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "block-scoping": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "const-immutable": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "create-student": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "double-odd-numbers": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "instructor": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "join-arrays": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "map-filter-and-reduce": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "place-in-middle": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "print-full-name": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "sum-even-args": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "template-literals": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "template-tag-function": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "triple-and-filter": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "all-of-conditions": {
-      "completed": false,
+      "completed": true,
       "rating": null
     }
   }

@@ -1,6 +1,6 @@
 
-function bind(...args) {
-  return args;
+function bind(callback, context, ...args) {
+  return callback.bind(context, ...args);
 }
 
 export {
