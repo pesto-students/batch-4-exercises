@@ -1,8 +1,5 @@
-
-function greet(...args) {
-  return args;
+function greet(greeting) {
+  return Promise.resolve(`Hey ${greeting}`);
 }
 
-export {
-  greet,
-};
+export { greet };
