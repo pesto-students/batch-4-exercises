@@ -1,8 +1,8 @@
 
-function consumableUsers(...args) {
+function ConsumableUsers(...args) {
   return args;
 }
 
 export {
-  consumableUsers,
+  ConsumableUsers,
 };

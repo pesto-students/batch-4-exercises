@@ -1,6 +1,6 @@
 
-function isIterableEmpty(...args) {
-  return args;
+function isIterableEmpty(obj) {
+  return typeof obj[Symbol.iterator]().next().value === 'undefined';
 }
 
 export {
