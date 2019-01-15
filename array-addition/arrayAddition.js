@@ -12,14 +12,14 @@ function arrayAddition(array1, array2) {
     longerArray = array1;
     shorterArray = array2;
   }
-  const resultant = [];
+  let resultant = [];
   shorterArray.forEach((_element, index) => {
     if ((typeof longerArray[index] !== 'number') || (typeof shorterArray[index] !== 'number')) {
       throw new Error('Elements of the array are not numbers');
     }
     resultant.push(longerArray[index] + shorterArray[index]);
   });
-  resultant.concat();
+  resultant = resultant.concat(longerArray.slice(shorterArray.length));
   return resultant;
 }
 
