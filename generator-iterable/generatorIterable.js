@@ -1,6 +1,10 @@
 
-function generatorIterable(...args) {
-  return args;
+function* generatorIterable() {
+  let count = 0;
+  while (count < 5) {
+    count += 1;
+    yield count;
+  }
 }
 
 export {
