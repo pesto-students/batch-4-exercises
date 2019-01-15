@@ -1,14 +1,15 @@
 const fibonacciIter = {
-  no1: 0,
-  no2: 1,
   [Symbol.iterator]() {
-    return this;
-  },
-  next() {
-    const temp = this.no1 + this.no2;
-    this.no1 = this.no2;
-    this.no2 = temp;
-    return { value: temp };
+    return {
+      no1: 0,
+      no2: 1,
+      next() {
+        const t = this.no1 + this.no2;
+        this.no1 = this.no2;
+        this.no2 = t;
+        return { value: t, done: false };
+      },
+    };
   },
 };
 
