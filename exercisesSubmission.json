@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Prakhar Yadav",
+  "email": "prakharyadav.19@gmail.com",
+  "batch": "4",
   "exercises": {
     "consumable-users": {
       "completed": false,
@@ -12,20 +12,20 @@
       "rating": null
     },
     "fibonacci-iter": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "generator-iterable": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "iterable-protocol": {
       "completed": false,
       "rating": null
     },
     "is-iterable": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "is-iterable-empty": {
       "completed": false,
@@ -36,8 +36,8 @@
       "rating": null
     },
     "simple-iterable": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     }
   }
 }
