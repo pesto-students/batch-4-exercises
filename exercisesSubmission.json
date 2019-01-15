@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Jithin Tom",
+  "email": "jithintom1@gmail.com",
+  "batch": "4",
   "exercises": {
     "consumable-users": {
       "completed": false,
@@ -24,11 +24,11 @@
       "rating": null
     },
     "is-iterable": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "is-iterable-empty": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "range-iter": {
