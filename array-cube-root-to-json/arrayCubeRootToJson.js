@@ -1,6 +1,6 @@
 
-function arrayCubeRootToJson(...args) {
-  return args;
+function arrayCubeRootToJson(cubedArray) {
+  return cubedArray;
 }
 
 export {
