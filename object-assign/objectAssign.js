@@ -1,6 +1,6 @@
 
-function objectAssign(...args) {
-  return args;
+function objectAssign(...objects) {
+  return objects.reduce((accumulator, currentValue) => Object.assign(accumulator, currentValue));
 }
 
 export {

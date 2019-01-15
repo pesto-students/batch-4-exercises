@@ -1,43 +1,43 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Ravi Kumar Prasad",
+  "email": "7ravikp@gmail.com",
+  "batch": "4",
   "exercises": {
     "built-in-iterables": {
       "completed": false,
       "rating": null
     },
     "ackermann": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4 
     },
     "aperture": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "animal-sort": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "args-string": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "arithmetic-expression-evaluator": {
       "completed": false,
       "rating": null
     },
     "array-addition": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "array-cube-root-to-json": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "object-assign": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     }
   }
 }
