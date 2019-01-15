@@ -1,6 +1,6 @@
 
-function generatorIterable(...args) {
-  return args;
+function *generatorIterable() {
+  yield 1
 }
 
 export {
