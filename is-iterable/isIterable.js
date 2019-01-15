@@ -1,10 +1,6 @@
 
 function isIterable(object) {
-  if (typeof object[Symbol.iterator] === 'function') {
-    return true;
-  }else{
-    return false;
-  }
+  return typeof object[Symbol.iterator] === 'function';
 }
 
 export {

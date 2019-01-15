@@ -1,6 +1,10 @@
 
 function *generatorIterable() {
-  yield 1
+  let counter = 1
+  while (counter<=5) {
+    yield counter
+    counter+=1;  
+  }
 }
 
 export {

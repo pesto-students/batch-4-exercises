@@ -12,11 +12,11 @@
       "rating": null
     },
     "fibonacci-iter": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "generator-iterable": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "iterable-protocol": {
@@ -36,7 +36,7 @@
       "rating": null
     },
     "simple-iterable": {
-      "completed": false,
+      "completed": true,
       "rating": null
     }
   }
