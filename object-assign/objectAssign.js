@@ -1,8 +1,3 @@
+const objectAssign = (source, ...targets) => Object.assign(source, ...targets);
 
-function objectAssign(...args) {
-  return args;
-}
-
-export {
-  objectAssign,
-};
+export { objectAssign };

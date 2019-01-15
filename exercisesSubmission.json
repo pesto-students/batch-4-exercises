@@ -1,42 +1,42 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Nitin Patel",
+  "email": "nitinpatel278@gmail.com",
+  "batch": "4",
   "exercises": {
     "built-in-iterables": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "ackermann": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "aperture": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "animal-sort": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "args-string": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "arithmetic-expression-evaluator": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "array-addition": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "array-cube-root-to-json": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "object-assign": {
-      "completed": false,
+      "completed": true,
       "rating": null
     }
   }
