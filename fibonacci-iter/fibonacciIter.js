@@ -1,8 +1,18 @@
+function* generateFibonacci() {
+  let firstFib = 0;
+  let secondFib = 1;
 
-function fibonacciIter(...args) {
-  return args;
+  yield firstFib;
+  yield secondFib;
+
+  while (true) {
+    const currentFib = firstFib + secondFib;
+    yield currentFib;
+    firstFib = secondFib;
+    secondFib = currentFib;
+  }
 }
 
-export {
-  fibonacciIter,
-};
+const fibonacciIter = generateFibonacci();
+
+export { fibonacciIter };

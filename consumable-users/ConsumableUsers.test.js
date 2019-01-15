@@ -85,10 +85,7 @@ describe('Iterator usages', () => {
       });
 
       it('destructure an iterable like an array', () => {
-        const {
-          firstUser,
-          secondUser,
-        } = usersIterable;
+        const { firstUser, secondUser } = usersIterable;
         expect(firstUser).toBe('user: Alice');
         expect(secondUser).toBe('user: Bob');
       });

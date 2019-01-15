@@ -1,42 +1,42 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Nitin Patel",
+  "email": "nitinpatel278@gmail.com",
+  "batch": "4",
   "exercises": {
     "consumable-users": {
       "completed": false,
       "rating": null
     },
     "cycled": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "fibonacci-iter": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "generator-iterable": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "iterable-protocol": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "is-iterable": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "is-iterable-empty": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "range-iter": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "simple-iterable": {
-      "completed": false,
+      "completed": true,
       "rating": null
     }
   }
