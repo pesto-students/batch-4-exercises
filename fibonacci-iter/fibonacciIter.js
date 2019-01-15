@@ -1,13 +1,13 @@
 const fibonacciIter = {
   [Symbol.iterator]() {
+    let previousVal = 0;
+    let currentVal = 1;
     return {
-      no1: 0,
-      no2: 1,
       next() {
-        const t = this.no1 + this.no2;
-        this.no1 = this.no2;
-        this.no2 = t;
-        return { value: t, done: false };
+        const newFiboVal = previousVal + currentVal;
+        previousVal = currentVal;
+        currentVal = newFiboVal;
+        return { value: newFiboVal, done: false };
       },
     };
   },
