@@ -1,11 +1,11 @@
 function* generatorIterable() {
-  let i = 1;
+  let val = 1;
   while (true) {
-    yield i;
-    if (i === 5) {
+    yield val;
+    if (val === 5) {
       break;
     }
-    i += 1;
+    val += 1;
   }
 }
 
