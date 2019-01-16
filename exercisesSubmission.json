@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Ravi Kumar Prasad",
+  "email": "7ravikp@gmail.com",
+  "batch": "4",
   "exercises": {
     "on-change": {
       "completed": false,
@@ -12,8 +12,8 @@
       "rating": null
     },
     "known-prop": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "negative-index": {
       "completed": false,
