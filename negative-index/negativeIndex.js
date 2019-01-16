@@ -5,13 +5,10 @@ function negativeIndex(inputObject) {
       if (index < 0) {
         return inputObject.length + Number(index);
       }
-      return Number(index);
+      return index;
     },
     get(target, key) {
-      return inputObject[this.getProperIndex(key)];
-    },
-    set(target, key) {
-      Reflect.set(inputObject, this.getProperIndex(key));
+      return target[this.getProperIndex(key)];
     },
   });
   return proxyObject;
