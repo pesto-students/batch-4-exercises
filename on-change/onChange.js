@@ -1,3 +1,5 @@
+const isObject = value => typeof value === 'object';
+
 const getProxyHandler = callback => ({
   set(obj, key, value) {
     callback();
@@ -13,10 +15,18 @@ const getProxyHandler = callback => ({
     callback();
     return Reflect.deleteProperty(obj, key);
   },
+
+  get(obj, key) {
+    const accessedValue = Reflect.get(obj, key);
+    if (isObject(accessedValue)) {
+      return new Proxy(Reflect.get(obj, key), getProxyHandler(callback));
+    }
+    return accessedValue;
+  },
 });
 
-function onChange(fixture, callback) {
-  return new Proxy({ ...fixture }, getProxyHandler(callback));
+function onChange(target, callback) {
+  return new Proxy(target, getProxyHandler(callback));
 }
 
 export { onChange };
