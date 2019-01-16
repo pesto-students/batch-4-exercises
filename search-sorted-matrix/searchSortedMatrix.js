@@ -1,8 +1,5 @@
-
 function searchSortedMatrix(...args) {
   return args;
 }
 
-export {
-  searchSortedMatrix,
-};
+export { searchSortedMatrix };
