@@ -24,19 +24,19 @@
       "rating": null
     },
     "slice": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "split-every": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "substitution-cipher": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "sudan-fn": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "summable": {
