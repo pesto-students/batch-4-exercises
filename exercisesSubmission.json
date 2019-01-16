@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Prakhar Yadav",
+  "email": "prakharyadav.19@gmail.com",
+  "batch": "4",
   "exercises": {
     "on-change": {
       "completed": false,
@@ -12,16 +12,16 @@
       "rating": null
     },
     "known-prop": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "negative-index": {
       "completed": false,
       "rating": null
     },
     "set-default-property": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "private-props": {
       "completed": false,
