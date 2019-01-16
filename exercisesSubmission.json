@@ -24,8 +24,8 @@
       "rating": null
     },
     "slice": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "split-every": {
       "completed": false,
@@ -52,8 +52,8 @@
       "rating": null
     },
     "to-pairs": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "type-js": {
       "completed": false,

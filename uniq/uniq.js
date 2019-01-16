@@ -1,6 +1,6 @@
 
-function uniq(...args) {
-  return args;
+function uniq(inputArray) {
+  return [...new Set(inputArray)];
 }
 
 export {
