@@ -1,11 +1,11 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Ravi Kumar Prasad",
+  "email": "7ravikp@gmail.com",
+  "batch": "4",
   "exercises": {
     "search-sorted-matrix": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "unnest": {
       "completed": false,
@@ -24,8 +24,8 @@
       "rating": null
     },
     "slice": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "split-every": {
       "completed": false,
