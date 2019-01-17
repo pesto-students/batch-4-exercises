@@ -1,8 +1,3 @@
+function longestCommonSubstring() {}
 
-function longestCommonSubstring(...args) {
-  return args;
-}
-
-export {
-  longestCommonSubstring,
-};
+export { longestCommonSubstring };

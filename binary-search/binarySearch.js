@@ -1,8 +1,8 @@
-const compare = (elementInMiddle, target, comparator) => {
+const compare = (elementOne, elementTwo, comparator) => {
   if (comparator) {
-    return comparator(elementInMiddle, target);
+    return comparator(elementOne, elementTwo);
   }
-  return elementInMiddle - target;
+  return elementOne - elementTwo;
 };
 
 function binarySearchNumbers(sortedData, start, end, target, comparator) {
