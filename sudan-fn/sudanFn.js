@@ -1,8 +1,7 @@
-
-function sudanFn(...args) {
+function sundanFn(...args) {
   return args;
 }
 
 export {
-  sudanFn,
+  sundanFn,
 };
