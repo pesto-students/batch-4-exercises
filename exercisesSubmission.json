@@ -4,7 +4,7 @@
   "batch": "4",
   "exercises": {
     "least-common-multiple": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "integer-partition": {
@@ -24,7 +24,7 @@
       "rating": null
     },
     "canvas": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "form-validation": {
