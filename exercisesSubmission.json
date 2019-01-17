@@ -16,11 +16,11 @@
       "rating": null
     },
     "binary-search": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "primality-test": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "boolean-expression-evaluator": {
