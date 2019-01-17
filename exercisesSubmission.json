@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Prakhar Yadav",
+  "email": "prakharyadav.19@gmail.com",
+  "batch": "4",
   "exercises": {
     "hamming-distance": {
       "completed": false,
@@ -28,40 +28,40 @@
       "rating": null
     },
     "debugging-html": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "form-attributes": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "form": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "html-classes": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "html-text-formatting": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "iframe": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "navigation-menu-start": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "strikeout": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "tooltip": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     }
   }
 }
