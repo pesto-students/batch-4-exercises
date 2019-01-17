@@ -1,16 +1,19 @@
-<!-- CHoose your favourite image from the internet.
-Define different clickable areas on the image.
-Clicking on the areas should open different link in a new tab. -->
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Map</title>
+  </head>
+  <body>
+    <img src="/rick-and-morty.jpeg" width="400" height="400" alt="Rick and morty" usemap="#rickandmortymap">
+
+    <map name="rickandmortymap">
+      <area shape="rect" coords="0,0,200,200" href="https://www.google.com" alt="Go to Google" title="Go to Google" target="_blank">
+      <area shape="rect" coords="200,0,400,200" href="https://www.github.com" alt="Go to Github" title="Go to Github" target="_blank">
+      <area shape="rect" coords="0,200,200,400" href="https://www.facebook.com" alt="Go to Facebook" title="Go to Facebook" target="_blank">
+      <area shape="rect" coords="200,200,400,400" href="https://www.reddit.com" alt="Go to Reddit" title="Go to Reddit" target="_blank">
+    </map>
+  </body>
 </html>

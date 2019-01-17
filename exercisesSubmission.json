@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Prakhar Yadav",
+  "email": "prakharyadav.19@gmail.com",
+  "batch": "4",
   "exercises": {
     "least-common-multiple": {
       "completed": false,
@@ -20,20 +20,20 @@
       "rating": null
     },
     "adding-vector-graphics-to-web": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "canvas": {
       "completed": false,
       "rating": null
     },
     "form-validation": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "map": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "svg": {
       "completed": false,
