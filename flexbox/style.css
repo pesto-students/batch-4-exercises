@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: darkorchid;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+}
