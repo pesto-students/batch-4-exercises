@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2 {
+    text-align: center;
+    background-color: maroon;
+    height: 70px;
+    margin: 0px;
+    padding: 25px;
+    line-height: 65px;
+}
+/* start of main content */
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 14px;
+}
+
+.main-content_article-color {
+    background-color: #6dff80;
+    padding: 10px;
+}
+
+.main-content_article-1 {
+    width: 25%;
+    height: 300px;
+}
+
+.main-content_article-2 {
+    width: 25%;
+    height: 300px;
+}
+
+/* start of facial expression button parent */
+.main-content_article-3 {
+    width: 43%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.article-3_emotions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.article-button {
+    width: 18%;
+    font-size: 24px;
+}
+/* end of facial expression button parent */
+/* end of main content */
