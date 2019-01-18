@@ -9,11 +9,14 @@ Clicking on the areas should open different link in a new tab. -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Image Map</title>
+  <link rel="stylesheet" type="text/css" href="map.css">
 </head>
 
 <body>
-  <img src="">
+  <img onload = "drawImageToCanvas()" id ="source-image" src="https://www.w3schools.com/html/pic_trulli.jpg" alt = "House in snowy place">
+  <canvas id = "target" onclick="redirectToPage(event)"></canvas>
+  <script type="text/javascript" src="map.js"></script>
 </body>
 
 </html>
