@@ -28,31 +28,31 @@
       "rating": null
     },
     "debugging-html": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "form-attributes": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "form": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "html-classes": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "html-text-formatting": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "iframe": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "navigation-menu-start": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "strikeout": {
@@ -60,7 +60,7 @@
       "rating": null
     },
     "tooltip": {
-      "completed": false,
+      "completed": true,
       "rating": null
     }
   }

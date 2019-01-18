@@ -1,23 +1,32 @@
-
-function binarySearch(array, elementToBeSearched) {
+function binarySearch(array, elementToBeSearched, comparator) {
+  if (typeof array[0] !== 'number') {
+    return -1;
+  }
+  const determineGreater = (element1, element2, objectComparator) => {
+    if (objectComparator !== undefined) {
+      return objectComparator(element1, element2);
+    }
+    if (element1 === element2) {
+      return 0;
+    }
+    return element1 > element2 ? 1 : -1;
+  };
   let start = 0;
   let end = array.length - 1;
-  let mid = (start + end) / 2;
-  while (start < end) {
-    if (array[mid] === elementToBeSearched) {
+  while (start <= end) {
+    // eslint-disable-next-line prefer-const
+    let mid = Math.floor((start + end) / 2);
+    if ((determineGreater(array[mid], elementToBeSearched, comparator) === 0)) {
       return mid;
     }
-    if (elementToBeSearched > array[mid]) {
-      start = mid;
+    if (determineGreater(array[mid], elementToBeSearched, comparator) === -1) {
+      start = mid + 1;
     }
-    if (elementToBeSearched < array[mid]) {
-      end = mid;
+    if (determineGreater(array[mid], elementToBeSearched, comparator) === 1) {
+      end = mid - 1;
     }
-    mid = (start + end) / 2;
   }
   return -1;
 }
 
-export {
-  binarySearch,
-};
+export { binarySearch };
