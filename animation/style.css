@@ -1,0 +1,98 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* New styles */
+main {
+    width: 50%;
+    margin: 10px auto;
+}
+.loader1,
+.loader2 {
+    margin: 30px;
+}
+.loader1 {
+    height: 50px;
+    width: 50px;
+    border: 10px solid grey;
+    border-top-color: black;
+    border-radius: 50%;
+    animation: circular-loading 3s infinite linear;
+}
+.loader2 .bar{
+    width: 5px;
+    height: 15px;
+    display: inline-block;
+    margin: 0 1px;
+    background-color: #62bb19;
+    animation: wave-loading 1s infinite linear;
+}
+.loader2 .bar.bar2 {
+    animation-delay: 0.1s;
+}
+.loader2 .bar.bar3 {
+    animation-delay: 0.2s
+}
+.loader2 .bar.bar4 {
+    animation-delay: 0.3s;
+}
+.loader2 .bar.bar5 {
+    animation-delay: 0.4s
+}
+@keyframes circular-loading {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes wave-loading {
+    0%,
+    50%,
+    100% {
+        transform: scaleY(0.6);
+    }
+    25% {
+        transform: scaleY(1.4);
+    }
+}
