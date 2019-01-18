@@ -8,20 +8,24 @@ html {
 body {
   width: 80em;
   margin: 0 auto;
+  text-align:center;
 }
 
 /* Typography */
 
 h1 {
   font-size: 4em;
+  text-align: center;
 }
 
 h2 {
   font-size: 3.2em;
+  text-align: center;
 }
 
-pli {
+p, li {
   font-size: 1.7em;
+  text-align: start;
 }
 
 /*+++ more specific section styles +++*/
@@ -29,20 +33,14 @@ pli {
 /* header and footer */
 
 header, footer {
-  background-colour: teal;
+  background-color: teal;
   height: 10em;
   padding: 2em;
 }
 
-h1, footer p {
-  margin: -70px;
+footer p {
+  float: left;
 }
-
-h1 {
-  text-align: center;
-  padding: 0.5em 0;
-}
-
 /* main content */
 
 main {
@@ -54,6 +52,24 @@ main p, main li {
 }
 
 img {
-  float: right
+  float: right;
   margin: 1.2em 2em;
+}
+
+li {
+  width: fit-content;
+}
+
+header,footer {
+  background-color: green;
+}
+
+.medium-content {
+ float: left;
+ text-align: start;
+ width: 50%;
+}
+
+.main-image {
+  height: 491px;
 }
