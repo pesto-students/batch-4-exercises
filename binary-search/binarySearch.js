@@ -1,7 +1,4 @@
 function binarySearch(array, elementToBeSearched, comparator) {
-  if (typeof array[0] !== 'number') {
-    return -1;
-  }
   const determineGreater = (element1, element2, objectComparator) => {
     if (objectComparator !== undefined) {
       return objectComparator(element1, element2);
