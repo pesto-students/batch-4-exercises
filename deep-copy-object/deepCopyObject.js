@@ -1,6 +1,6 @@
 
-function deepCopyObject(...args) {
-  return args;
+function deepCopyObject(obj) {
+  return obj;
 }
 
 export {
