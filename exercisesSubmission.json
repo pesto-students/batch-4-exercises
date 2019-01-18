@@ -1,15 +1,15 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Ravi Kumar Prasad",
+  "email": "7ravikp@gmail.com",
+  "batch": "4",
   "exercises": {
     "levenshtein-distance": {
       "completed": false,
       "rating": null
     },
     "cartesian-product": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "center-text": {
       "completed": false,
@@ -24,8 +24,8 @@
       "rating": null
     },
     "cool-information-box-start": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "debugging-css": {
       "completed": false,

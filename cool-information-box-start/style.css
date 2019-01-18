@@ -2,4 +2,26 @@ html {
   font-family: sans-serif;
 }
 
-/* Your CSS below here */
+#box {
+  background-color: white;
+  height: 80px;
+  width: 240px;
+  border-radius: 20px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 20px black;
+  text-align: center;
+  vertical-align: middle;
+  display: table;
+  padding: 1px;
+}
+
+#text-container {
+  background-color: red;
+  color: red;
+  border-radius: 15px;
+  text-shadow: 2px 2px black;
+  font-size: 20px;
+  display: table-cell;
+  vertical-align: middle;
+  box-shadow: 3px 3px 10px black;
+}
