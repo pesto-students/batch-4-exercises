@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Vikash Kumar Bijarnia",
+  "email": "vikash.bijarnia@outlook.com",
+  "batch": "4",
   "exercises": {
     "least-common-multiple": {
       "completed": false,
@@ -28,15 +28,15 @@
       "rating": null
     },
     "form-validation": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "map": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "svg": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "table": {
