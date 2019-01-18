@@ -1,21 +1,58 @@
-
-// eslint-disable-next-line consistent-return
-function binarySearch(arr, searchKey) {
-  if (typeof searchKey === 'number') {
-    const midIndex = Math.round(arr.length / 2) - 1;
-    const mediumNumberOfArray = arr[midIndex];
-    if (arr.length === 0) {
-      return 0;
-    }
-    if (mediumNumberOfArray === searchKey) {
-      return mediumNumberOfArray;
-    }
-    if (searchKey >= mediumNumberOfArray) {
-      binarySearch(arr.slice(midIndex + 1));
-    }
+/* eslint-disable quotes */
+/* eslint-disable comma-dangle */
+function binarySearchInArray(arr, searchKey, low, high) {
+  const midIndex = Math.round((low + high) / 2);
+  const mediumNumberOfArray = arr[midIndex];
+  if (low > high) {
+    return -1;
   }
+  if (mediumNumberOfArray === searchKey) {
+    return midIndex;
+  }
+  if (searchKey > mediumNumberOfArray) {
+    return binarySearchInArray(arr, searchKey, midIndex + 1, high);
+  }
+  return binarySearchInArray(arr, searchKey, low, midIndex - 1);
 }
 
-export {
-  binarySearch,
-};
+function binarySearchInObjectList(arr, searchKey, low, high, comparator) {
+  const midIndex = Math.round((low + high) / 2);
+  const mediumNumberOfArray = arr[midIndex];
+  if (low > high) {
+    return -1;
+  }
+  if (!comparator(searchKey, mediumNumberOfArray)) {
+    return midIndex;
+  }
+  if (comparator(searchKey, mediumNumberOfArray) === 1) {
+    return binarySearchInObjectList(
+      arr,
+      searchKey,
+      midIndex + 1,
+      high,
+      comparator
+    );
+  }
+  return binarySearchInObjectList(
+    arr,
+    searchKey,
+    low,
+    midIndex - 1,
+    comparator
+  );
+}
+
+function binarySearch(arr, searchKey, comparator) {
+  if (typeof searchKey === "number") {
+    return binarySearchInArray(arr, searchKey, 0, arr.length - 1);
+  }
+  return binarySearchInObjectList(
+    arr,
+    searchKey,
+    0,
+    arr.length - 1,
+    comparator
+  );
+}
+
+export { binarySearch };
