@@ -10,4 +10,16 @@ header {
 
 header h1 {
   color: white;
+  font-size: 30px;
+}
+
+main {
+  display: flex;
+  flex: 1;
+}
+
+main div.article {
+  background-color: aqua;
+  margin: 5px;
+  padding: 10px;
 }
