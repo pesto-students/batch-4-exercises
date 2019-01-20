@@ -1,0 +1,31 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+}
+
+.wrapper {
+  display: grid;
+  grid-column: 2/3;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 25px;
+}
+
+.col {
+  background: pink;
+}
+
+.span6 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column: span 6;
+}
+
+.span3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column: span 3;
+}
+
+.span2 {
+  grid-column: span 2;
+}
