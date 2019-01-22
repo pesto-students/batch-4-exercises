@@ -87,7 +87,7 @@ class GroceryListItem extends React.Component {
 
   render() {
     return (
-      <li onClick = {this.changeColor()} >
+      <li onClick = {this.changeColor()} style = {{color : this.state.color}}>
         { state.grocery }
       </li>
     );
