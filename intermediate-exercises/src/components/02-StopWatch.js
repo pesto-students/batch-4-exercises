@@ -18,9 +18,69 @@ import React, { Component } from 'react';
 */
 
 class StopWatch extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      currentTime: 0,
+      timerStarted: false,
+      lapses: [],
+    }
+  }
+
+  start() {
+    this.setState((state) => ({
+      timerStarted: true,
+    }));
+  }
+
+  stop() {
+    this.setState((state) => {
+      const lapsedTime = state.currentTime;
+      return {
+        timerStarted: false,
+        lapses: [...state.lapses, lapsedTime],
+      }
+    });
+  }
+
+  clear() {
+    this.setState(() => ({
+      currentTime: 0,
+      timerStarted: false,
+      lapses: [],
+    }));
+  }
+
+  componentDidUpdate() {
+    setTimeout(() => {
+      if (this.state.timerStarted) {
+        this.setState((state) => ({
+          currentTime: state.currentTime + 1,
+        }));
+      }
+    }, 1000);
+
+  }
+
   render() {
+    const getButton = () => {
+      if (this.state.timerStarted) {
+        return <button onClick={this.stop.bind(this)}>Stop</button>
+      }
+      return <button onClick={this.start.bind(this)}>Start</button>
+    };
+
     return (
-      <div>Stop Watch</div>
+      <React.Fragment>
+        <div>Stop Watch</div>
+        <p>{this.state.currentTime}</p>
+        {getButton()}
+        <button onClick={this.clear.bind(this)}>Clear</button>
+        <p>Lapses:</p>
+        <ul>
+          {this.state.lapses.map(value => <li key={value}>{value}</li>)}
+        </ul>
+      </React.Fragment>
     );
   }
 }
