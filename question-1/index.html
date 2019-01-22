@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 
 <head>
   <meta charset=utf-8 />
@@ -8,6 +8,12 @@
 
 <body>
   <p id='text'>JavaScript Exercises</p>
+  <script>
+    function js_style() {
+    let paragraphElement = document.getElementById('text');
+    paragraphElement.style.color = 'blue';
+  }
+  </script>
   <div>
     <button id="jsstyle" onclick="js_style()">Style</button>
   </div>
