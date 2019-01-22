@@ -2,10 +2,11 @@
 get the value of the href, hreflang, rel, target, and type attributes of the specified link -->
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset=utf-8 />
+  <title>Link Discription</title>
 </head>
 
 <body>
@@ -13,6 +14,20 @@ get the value of the href, hreflang, rel, target, and type attributes of the spe
     <a id="w3r" type="text/html" hreflang="en-us" rel="nofollow" target="_self" href="https://pesto.tech/">Pesto</a>
   </p>
   <button onclick="getAttributes()">Click here to get attributes value</button>
+  <script>
+    function getAttributes() {
+      let aTagElement = document.getElementById('w3r');
+      let aTagProperties = {
+        type: aTagElement.type,
+        hrefLang: aTagElement.hrefLang,
+        rel: aTagElement.rel,
+        target: aTagElement.target,
+        href: aTagElement.href
+      }
+      alert(JSON.stringify(aTagProperties, undefined, 2));
+    }
+
+  </script>
 </body>
 
 </html>
