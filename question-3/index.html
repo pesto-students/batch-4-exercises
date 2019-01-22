@@ -6,6 +6,14 @@ get the value of the href, hreflang, rel, target, and type attributes of the spe
 
 <head>
   <meta charset=utf-8 />
+  <title>Anchor tag attributes</title>
+  <script>
+    function getAttributes(){
+      const anchor = document.getElementById('w3r');
+      const anchorAttributes = anchor.attributes;
+      console.log(anchorAttributes.href,anchorAttributes.hreflang,anchorAttributes.rel,anchorAttributes.target);
+    }
+  </script>
 </head>
 
 <body>

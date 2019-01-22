@@ -6,6 +6,15 @@
 <head>
   <meta charset=utf-8 />
   <title>Insert row in a table</title>
+  <script>
+    function insert_Row(){
+      const table = document.getElementById('sampleTable');
+      const newRow = document.createElement("tr")
+      const count = table.children.length
+      newRow.innerHTML = `<td>Row${count+1} cell1</td><td>Row${count+1} cell2</td>`
+      table.appendChild(newRow);
+    }
+  </script>
 </head>
 
 <body>

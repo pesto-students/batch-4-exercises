@@ -4,12 +4,18 @@
 <head>
   <meta charset=utf-8 />
   <title>JS DOM paragraph style</title>
+  <script>
+      function modifyButtonStyle(){
+        const button = document.getElementById('jsStyle');
+        button.style.color = 'red';
+      }
+    </script>
 </head>
 
-<body>
+<body onload= "modifyButtonStyle()">
   <p id='text'>JavaScript Exercises</p>
   <div>
-    <button id="jsstyle" onclick="js_style()">Style</button>
+    <button id="jsStyle" onclick="js_style()">Style</button>
   </div>
 </body>
 

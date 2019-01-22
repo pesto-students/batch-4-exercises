@@ -7,6 +7,14 @@
 <head>
   <meta charset=utf-8 />
   <title>Change the content of a cell</title>
+  <script>
+    function changeContent(row,column){
+      const tbody = document.getElementById("myTable").children[0];
+      const rowElement = tbody.children[row-1];
+      const columnElement = rowElement.children[column-1];
+      columnElement.textContent = document.getElementById('content').value;
+    }
+  </script>
 </head>
 
 <body>
@@ -25,7 +33,10 @@
     </tr>
   </table>
   <form>
-    <input type="button" onclick="changeContent()" value="Change content">
+    <label>
+    Content to be added : <input id = "content" type="text" title="Content to be added" value="Hello">
+  </label>
+    <input type="button" onclick="changeContent(2,1)" value="Change content">
   </form>
 </body>
 
