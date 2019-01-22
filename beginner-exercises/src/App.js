@@ -17,25 +17,32 @@ const App = () => (
         }}
       >
         <li>
-          <NavLink to="/01" activeClassName="link--active">Hello World</NavLink>
+          <NavLink to="/01" activeClassName="link--active">
+            Hello World
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/02" activeClassName="link--active">Movie List</NavLink>
+          <NavLink to="/02" activeClassName="link--active">
+            Movie List
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/03" activeClassName="link--active">Favorite Movie</NavLink>
+          <NavLink to="/03" activeClassName="link--active">
+            Favorite Movie
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/04" activeClassName="link--active">Grocery List</NavLink>
+          <NavLink to="/04" activeClassName="link--active">
+            Grocery List
+          </NavLink>
         </li>
       </ul>
       <hr />
       {routes.map(route => (
         <Route
+          key={JSON.stringify(route)}
           path={route.path}
-          render={props => (
-            <route.component {...props} routes={route.routes} />
-          )}
+          render={props => <route.component {...props} routes={route.routes} />}
         />
       ))}
     </React.Fragment>

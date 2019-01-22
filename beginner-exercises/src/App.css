@@ -24,3 +24,7 @@ ul {
   list-style: none;
   color: black;
 }
+
+.movie-list-item {
+  color: green;
+}
