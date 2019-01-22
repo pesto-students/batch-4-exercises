@@ -32,6 +32,9 @@ const GithubRepos = ({ repos }) => {
 // about incorrect prop type for user.
 // Define the correct prop type for the prop `repos`
 GithubRepos.propTypes = {
+  componentDidMount(){
+    console.log('hi')
+  }
 
 };
 
