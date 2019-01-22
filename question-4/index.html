@@ -1,7 +1,7 @@
 <!-- Write a JavaScript function to add rows to a table -->
 
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 
 <head>
   <meta charset=utf-8 />
@@ -21,6 +21,15 @@
   </table>
   <br>
   <input type="button" onclick="insert_Row()" value="Insert row">
+  <script> 
+  function insert_Row() {
+    let stringToAdd = "<td>Row3 cell1</td><td>Row3 cell2</td>";
+    let rowElement = document.createElement('tr');
+    rowElement.innerHTML = stringToAdd;
+    let tableElement = document.getElementById('sampleTable');
+    tableElement.appendChild(rowElement);
+  }
+  </script>
 </body>
 
 </html>
