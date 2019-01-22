@@ -1,8 +1,3 @@
+class PriorityQueue {}
 
-function priorityQueue(...args) {
-  return args;
-}
-
-export {
-  priorityQueue,
-};
+export { PriorityQueue };
