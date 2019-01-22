@@ -17,6 +17,14 @@ Task #2: If there is no movie given, we should display a message encouraging
 Further reading on task #2: https://facebook.github.io/react/tips/if-else-in-JSX.html
 */
 
+function enterMovieNotification(props){
+  const hasMovie = props.hasMovie
+  if (hasMovie) {
+    return <span></span>;
+  }else{
+    return <span>Please add a movie!</span>;
+  }
+}
 class FavoriteMovie extends Component {
 /*
   By default `this.state` is `null`. In `render` we are referring to
@@ -49,7 +57,7 @@ class FavoriteMovie extends Component {
   /* eslint-disable no-unused-vars, react/no-unused-state */
   onMovieChange(event) {
     // Huh... There's something wrong here...
-    this.setState({ badAttribute: 'ChangeME!' });
+    this.setState({ movie: event.relatedTarget.value });
   }
 
   render() {
@@ -57,6 +65,7 @@ class FavoriteMovie extends Component {
       <div>
         <p>My favorite movie is <span style={{ color: 'blue' }}>{this.state.movie}</span></p>
         <input type="text" name="name" onChange={this.onMovieChange} />
+        <enterMovieNotification hasMovie = {this.state !== ''}></enterMovieNotification>
       </div>
     );
   }
