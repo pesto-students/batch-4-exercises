@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 /*
   In this exercises, you'll will make a reactive grocery list.
@@ -23,35 +23,59 @@ class GroceryList extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      groceries: [{ name: 'Apples' }, { name: 'KitKat' }, { name: 'Red Bull' }],
+      groceries: [
+        { name: "Apples", purcased: false },
+        { name: "KitKat", purcased: false },
+        { name: "Red Bull", purcased: false }
+      ]
     };
+
+    this.addGrocery = this.addGrocery.bind(this);
+    this.clearAllList = this.clearAllList.bind(this);
+    this.purchaseGrocery = this.purchaseGrocery.bind(this);
+  }
+
+  addGrocery() {
+    const groceryName = this.refs.groceryInput.nodeValue;
+    const newGrocery = {
+      name: groceryName,
+      purchased: false
+    };
+    this.setState(prevState => {
+      const oldGroceries = prevState.groceries;
+      return {
+        groceries: [...oldGroceries, newGrocery]
+      };
+    });
+  }
+
+  clearAllList() {
+    this.setState(() => {
+      groceries: [];
+    });
+  }
+
+  purchaseGrocery(event) {
+    const groceryName = event.target.value;
   }
 
   render() {
     const { groceries } = this.state;
-    /*
-      Properties are a way to pass parameters to your React components.
-      We mentioned this in the third exercise. Properties are to React
-      components what attributes are to HTML elements.
-
-      Below you can see how to pass properties to child components.
-      We have defined a `grocery` property for each `GroceryListItem`.
-    */
-    const groceriesComponents = groceries.map(item => ( // eslint-disable-line no-unused-vars
-      <GroceryListItem grocery={item} />
+    const groceriesComponents = groceries.map(item => (
+      <GroceryListItem grocery={item} buyItem={this.purchaseGrocery} />
     ));
-    // Hint: Don't forget about putting items into `ul`
     return (
       <div>
-        Put your code here
+        <ul>{groceriesComponents}</ul>
+        <label for="grocery">Grocery: </label>
+        <input type="text" ref="groceryInput" name="grocery" />
+        <button onClick={this.addGrocery}>Add Grocery</button>
+        <button onClick={this.clearAllList}>Clear List</button>
       </div>
     );
   }
 }
 
-// Render grocery name from component's properties.
-// If you have a problem, check `this.props` in the console.
-/* eslint-disable react/no-multi-comp, no-useless-constructor */
 class GroceryListItem extends React.Component {
   constructor(props) {
     super(props);
@@ -59,13 +83,11 @@ class GroceryListItem extends React.Component {
 
   render() {
     return (
-      <li>
-        Put your code here.
+      <li key={this.props.grocery} onClick={this.props.buyItem}>
+        {this.props.grocery}
       </li>
     );
   }
 }
-
-// Do prop validation here using the package `prop-types`
 
 export default GroceryList;
