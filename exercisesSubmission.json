@@ -1,26 +1,26 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Jithin Tom",
+  "email": "jithintom1@gmail.com",
+  "batch": "4",
   "exercises": {
     "question-1": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "question-2": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "question-3": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "question-4": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "question-5": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "question-6": {
