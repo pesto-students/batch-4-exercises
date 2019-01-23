@@ -1,10 +1,3 @@
-/*
-  Exercise:
-
-  Make `withMouse` a "higher-order component" that sends the mouse position
-  to the component as props (hint: use `event.clientX` and `event.clientY`).
-
-*/
 import React from 'react';
 import PropTypes from 'prop-types';
 
