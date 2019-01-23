@@ -21,26 +21,30 @@ import PropTypes from 'prop-types';
 
 class RadioGroup extends React.Component {
   static propTypes = {
-    // defaultValue: PropTypes.string,                UN-COMMENT THIS LINE
+    defaultValue: PropTypes.string,
     children: PropTypes.shape().isRequired,
   };
   render() {
     return (
-      <div>{this.props.children}</div>
+      <div>
+        {
+          ['AM', 'FM', 'Tape', 'Aux'].map(radioType => <RadioOption value={this.props.defaultValue}>{radioType}</RadioOption>)
+        }
+      </div>
     );
   }
 }
 
 class RadioOption extends React.Component {
   static propTypes = {
-    // value: PropTypes.string,                       UN-COMMENT THIS LINE
+    value: PropTypes.string,
     children: PropTypes.shape().isRequired,
   };
 
   render() {
     return (
       <div>
-        <RadioIcon isSelected={false} /> {this.props.children}
+        <RadioIcon isSelected={this.props.value} /> {this.props.children}
       </div>
     );
   }
@@ -70,17 +74,17 @@ class RadioIcon extends React.Component {
 }
 
 class CompoundComponents extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { radioType: 'fm' };
+  }
+
   render() {
     return (
       <div>
         <h1>♬ It is about time that we all turned off the radio ♫</h1>
 
-        <RadioGroup defaultValue="fm">
-          <RadioOption value="am">AM</RadioOption>
-          <RadioOption value="fm">FM</RadioOption>
-          <RadioOption value="tape">Tape</RadioOption>
-          <RadioOption value="aux">Aux</RadioOption>
-        </RadioGroup>
+        <RadioGroup defaultValue={this.state.radioType} />
       </div>
     );
   }
