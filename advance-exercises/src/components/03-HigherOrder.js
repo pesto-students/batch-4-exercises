@@ -9,8 +9,8 @@ function withMouse(Component) {
       super(props);
       this.state = {
         x: 0,
-        y: 0
-      }
+        y: 0,
+      };
       this.onMouseUpdate = this.onMouseUpdate.bind(this);
     }
 
@@ -21,8 +21,7 @@ function withMouse(Component) {
     render() {
       return <Component mouse={this.state} onMouseMove={this.onMouseUpdate}></Component>
     }
-  }
-  return Component;
+  };
 }
 
 class App extends React.Component {
