@@ -23,7 +23,8 @@
     "eslint-plugin-react": "*",
     "husky": "*",
     "jest": "*",
-    "lint-staged": "*"
+    "lint-staged": "*",
+    "babel-eslint": "^10.0.1"
   },
   "husky": {
     "hooks": {
@@ -31,6 +32,8 @@
     }
   },
   "lint-staged": {
-    "!(*.test).js": ["eslint"]
+    "!(*.test).js": [
+      "eslint"
+    ]
   }
 }
