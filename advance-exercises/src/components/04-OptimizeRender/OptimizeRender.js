@@ -24,14 +24,33 @@ class ListView extends React.Component {
     renderRowAtIndex: PropTypes.func.isRequired,
   };
 
+  constructor(props){
+    super(props);
+    this.state = {numRows : 500}
+
+  }
+
+  getCurrentHeight = () => {
+    return Math.ceil(window.screen.availHeight / this.props.rowHeight)
+  }
+
+  componentDidMount(){
+    this.setState({numRows : this.getCurrentHeight()});
+    this.resizeListener = window.addEventListener('resize', this.handleResize)
+  }
+
+  handleResize =() => {
+    this.setState({numRows : this.getCurrentHeight()})
+  }
+
   render() {
-    const { numRows, rowHeight, renderRowAtIndex } = this.props;
-    const totalHeight = numRows * rowHeight;
+    const { rowHeight, renderRowAtIndex } = this.props;
+    const totalHeight = this.state.numRows * rowHeight;
 
     const items = [];
 
     let index = 0;
-    while (index < numRows) {
+    while (index < this.state.numRows) {
       items.push(<li key={index}>{renderRowAtIndex(index)}</li>);
       index += 1;
     }
