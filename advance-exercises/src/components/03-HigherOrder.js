@@ -9,7 +9,25 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function withMouse(Component) {
-  return Component;
+  return class Wrapper extends React.Component {
+    
+    constructor(props){
+      super(props)
+      this.state = {mouse : {x : 0 , y : 0}};
+    }
+
+    handleMouseMove = (event) => {
+      this.setState({mouse : {x : event.clientX ,y : event.clientY}})
+    }
+
+    render() {
+      return (
+        <div onMouseMove = {this.handleMouseMove} style ={{ height: '100vh'}}>
+        <Component mouse = {this.state.mouse}> </Component>
+        </div>
+      )
+    }
+  }
 }
 
 class App extends React.Component {
