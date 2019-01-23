@@ -21,24 +21,48 @@ import PropTypes from "prop-types";
 
 class RadioGroup extends React.Component {
   static propTypes = {
-    // defaultValue: PropTypes.string,                UN-COMMENT THIS LINE
+    defaultValue: PropTypes.string,
     children: PropTypes.shape().isRequired
   };
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      selectedOption: "am"
+    };
+    this.handleOnChange = this.handleOnChange.bind(this);
+  }
+
+  handleOnChange = evt => {};
+
   render() {
-    return <div>{this.props.children}</div>;
+    return (
+      <div>
+        {this.props.children.map(Child => (
+          <Child
+            onChange={this.handleOnChange}
+            selectedOption={this.selectedOption}
+          />
+        ))}
+      </div>
+    );
   }
 }
 
 class RadioOption extends React.Component {
   static propTypes = {
-    // value: PropTypes.string,                       UN-COMMENT THIS LINE
+    value: PropTypes.string,
     children: PropTypes.shape().isRequired
   };
 
   render() {
     return (
       <div>
-        <RadioIcon isSelected={false} /> {this.props.children}
+        <RadioIcon
+          isSelected={this.props.selectedOption}
+          onChange={this.props.onChange}
+        />
+        {this.props.children}
       </div>
     );
   }
