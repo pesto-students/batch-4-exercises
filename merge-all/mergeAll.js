@@ -1,8 +1,7 @@
+const mergeTwoObjects = (objectOne, objectTwo) => ({ ...objectOne, ...objectTwo });
 
-function mergeAll(...args) {
-  return args;
+function mergeAll(objectArray) {
+  return objectArray.reduce(mergeTwoObjects);
 }
 
-export {
-  mergeAll,
-};
+export { mergeAll };
