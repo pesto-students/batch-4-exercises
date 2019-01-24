@@ -1,6 +1,6 @@
 
-function mergeAll(...args) {
-  return args;
+function mergeAll(objs) {
+  return objs.reduce((acc, currentObj) => ({ ...acc, ...currentObj }), {});
 }
 
 export {

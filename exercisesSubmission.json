@@ -1,11 +1,11 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Ravi Kumar Prasad",
+  "email": "7ravikp@gmail.com",
+  "batch": "4",
   "exercises": {
     "merge-all": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "nth-arg": {
       "completed": false,

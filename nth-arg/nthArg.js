@@ -1,8 +1,5 @@
-
-function nthArg(...args) {
-  return args;
+function nthArg(index) {
+  return (...args) => args[index];
 }
 
-export {
-  nthArg,
-};
+export { nthArg };
