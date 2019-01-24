@@ -1,25 +1,30 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import NewColor from './NewColor';
+import Header from './MainHeading';
 
 import '../styles/ColorList.css';
 
 const ColorList = (props) => {
   const colorLinks = props.colors.map(color => (
     <li key={color.hex}>
-      {color.name}
+      <Link to={`/colors/${color.name}`}>{color.name}</Link>
     </li>
   ));
+  const newColorPage = () => <NewColor addColor={props.handleAdd} />;
+  const MainHeader = () => Header(colorLinks);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1 className="App-title">Welcome to the Colorful Router.</h1>
-        <h1>Add a color</h1>
-      </header>
-      <div className="App-intro">
-        <p>Please select a color.</p>
-        <ul>{colorLinks}</ul>
-      </div>
-    </div>
+    <Router>
+      <Switch>
+        <div className="App">
+          {props.children}
+          <Route path="/colors/new" component={newColorPage} />
+          <Route exact path="/" component={MainHeader} />
+        </div>
+      </Switch>
+    </Router>
   );
 };
 
