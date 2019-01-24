@@ -5,15 +5,9 @@ const initialState = false;
 export default (state = initialState, action) => {
   switch (action.type) {
     case LOADING_STARTED:
-      return {
-        ...state,
-        loading: true
-      };
+      return true;
     case LOADING_DONE:
-      return {
-        ...state,
-        loading: false
-      };
+      return false;
     default:
       return state;
   }
