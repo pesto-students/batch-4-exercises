@@ -4,7 +4,7 @@
   "batch": "4",
   "exercises": {
     "merge-all": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "nth-arg": {
@@ -20,7 +20,7 @@
       "rating": null
     },
     "setup-router": {
-      "completed": false,
+      "completed": true,
       "rating": null
     }
   }

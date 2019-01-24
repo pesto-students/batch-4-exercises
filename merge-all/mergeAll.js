@@ -1,6 +1,6 @@
 
-function mergeAll(...args) {
-  return args;
+function mergeAll(objectsArray) {
+  return objectsArray.reduce((accumulator, object) => ({ ...accumulator, ...object }), {});
 }
 
 export {
