@@ -15,13 +15,11 @@ class App extends Component {
     return (
       <Fragment>
         <Navbar/>
-        <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about-us" component={About} />
             <Route exact path="/contact" component={Contact} />
           </Switch>
-        </BrowserRouter>
       </Fragment>
     );
   }
