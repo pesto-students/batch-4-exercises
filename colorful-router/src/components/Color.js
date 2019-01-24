@@ -5,12 +5,13 @@ import PropTypes from 'prop-types';
 import '../styles/Color.css';
 
 const Color = (props) => {
-  const { color } = props;
+  console.log(props)
+  const { color } = props.location.state;
   return (
     <div className="Color" style={{ backgroundColor: color.hex }}>
       <p>this is {color.name}.</p>
       <p>Isnt it beautiful?</p>
-      <p><Link to="/">Go back</Link></p>
+      <p><Link to="/colors">Go back</Link></p>
     </div>
   );
 };

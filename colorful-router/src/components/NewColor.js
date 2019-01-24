@@ -5,6 +5,7 @@ import '../styles/NewColor.css';
 
 class NewColor extends Component {
   constructor(props) {
+    console.log(props);
     super(props);
     this.state = {
       name: '',
