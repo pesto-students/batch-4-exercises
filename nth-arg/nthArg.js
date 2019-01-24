@@ -1,6 +1,6 @@
 
-function nthArg(...args) {
-  return args;
+function nthArg(argumentNumber) {
+  return (...args) => args[argumentNumber];
 }
 
 export {

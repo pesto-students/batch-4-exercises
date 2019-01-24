@@ -16,7 +16,7 @@
       "rating": null
     },
     "omit": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "setup-router": {
