@@ -6,6 +6,7 @@ function nthArg(index) {
       ? args[newIndex]
       : (...moreArg) => curry(...args, ...moreArg);
   }
+  Object.defineProperty(curry, 'length', { value: functionLength });
   return curry;
 }
 
