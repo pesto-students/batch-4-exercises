@@ -2,18 +2,19 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import '../styles/ColorList.css';
+import { Link, BrowserRouter } from 'react-router-dom'
 
 const ColorList = (props) => {
   const colorLinks = props.colors.map(color => (
     <li key={color.hex}>
-      {color.name}
+      <Link to={`/colors/${color.name}`}>{color.name}</Link>
     </li>
   ));
   return (
     <div className="App">
       <header className="App-header">
         <h1 className="App-title">Welcome to the Colorful Router.</h1>
-        <h1>Add a color</h1>
+        <h1><Link to="/colors/new">Add a color</Link></h1>
       </header>
       <div className="App-intro">
         <p>Please select a color.</p>
