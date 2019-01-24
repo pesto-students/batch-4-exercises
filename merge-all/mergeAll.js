@@ -1,6 +1,6 @@
 
-function mergeAll(...args) {
-  return args;
+function mergeAll(arrayOfObjects) {
+  return Object.assign({}, ...arrayOfObjects);
 }
 
 export {
