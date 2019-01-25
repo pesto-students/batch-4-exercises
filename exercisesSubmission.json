@@ -4,11 +4,11 @@
   "batch": "4",
   "exercises": {
     "path-satisfies": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "reject": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "test-basics": {

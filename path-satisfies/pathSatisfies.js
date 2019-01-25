@@ -1,8 +1,9 @@
+function pathSatisfies(conditon, path, objectToTraverse) {
+  const valueFound = path.reduce((accumulator, currentValue) => accumulator[currentValue], {
+    ...objectToTraverse,
+  });
 
-function pathSatisfies(...args) {
-  return args;
+  return conditon(valueFound);
 }
 
-export {
-  pathSatisfies,
-};
+export { pathSatisfies };
