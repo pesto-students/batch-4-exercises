@@ -11,7 +11,7 @@ describe('<Pokemon />', () => {
   const wrapper = mount(<Pokemon pokemon={mockPokemon} />);
 
   it('should return a <li/> element', () => {
-    expect(wrapper.find('li').length).toBe(1);
+    expect(wrapper.exists('li')).toBe(true);
   });
 
   it('should contain a <button/> and <p/> element', () => {
