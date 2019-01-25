@@ -28,20 +28,14 @@ class Page extends Component {
     return (
       <div className="pokemons__wrapper">
         <Search onChange={this.handleSearch} />
-        <ul className="pokemons">
-          {
-            isFetched ?
-              <p>Loading...</p> :
-              pokemons
-          }
-        </ul>
+        <ul className="pokemons">{isFetched ? <p>Loading...</p> : pokemons}</ul>
       </div>
     );
   }
 }
 
 Page.propTypes = {
-  page: PropTypes.number.isRequired,
+  page: PropTypes.object.isRequired,
   pageActions: PropTypes.shape().isRequired,
 };
 
