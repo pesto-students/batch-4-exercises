@@ -7,7 +7,9 @@ const Pokemon = ({ pokemon }) => (
       type="button"
       className="pokemons__sprite"
       style={{
-        backgroundImage: `url(${`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`})`,
+        backgroundImage: `url(${`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${
+          pokemon.id
+        }.png`})`,
       }}
     />
     <p className="pokemons__name">{pokemon.name}</p>
@@ -15,7 +17,10 @@ const Pokemon = ({ pokemon }) => (
 );
 
 Pokemon.propTypes = {
-  pokemon: PropTypes.string.isRequired,
+  pokemon: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default Pokemon;
