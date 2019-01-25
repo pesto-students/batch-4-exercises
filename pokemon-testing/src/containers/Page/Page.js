@@ -18,7 +18,7 @@ class Page extends Component {
   }
 
   render() {
-    const { displayedPokemons, isFetched } = this.props.page;
+    const { displayedPokemons, isFetching } = this.props.page;
 
     const pokemons = displayedPokemons.map((pokemon, index) => {
       // eslint-disable-next-line react/no-array-index-key
@@ -28,7 +28,7 @@ class Page extends Component {
     return (
       <div className="pokemons__wrapper">
         <Search onChange={this.handleSearch} />
-        <ul className="pokemons">{isFetched ? <p>Loading...</p> : pokemons}</ul>
+        <ul className="pokemons">{isFetching ? <p>Loading...</p> : pokemons}</ul>
       </div>
     );
   }
