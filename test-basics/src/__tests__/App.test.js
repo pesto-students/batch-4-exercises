@@ -3,7 +3,6 @@ import { shallow, mount } from 'enzyme';
 import toJson from 'enzyme-to-json';
 
 import App, { Link } from '../App';
-
 describe('<App /> shallow rendering', () => {
   it('h1 contains correct text', () => {
     const wrapper = shallow(<App />);
@@ -36,7 +35,7 @@ describe('<App /> shallow rendering', () => {
     const wrapper = shallow(<App />);
     const input = wrapper.find('input');
     expect(wrapper.find('h2').text()).toBe('');
-    input.simulate('change', { currentTarget: { value: 'Pesto' } });
+    input.simulate('change', { target: { value: 'Pesto' } });
     expect(wrapper.find('h2').text()).toBe('Pesto');
   });
 
