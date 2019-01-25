@@ -1,5 +1,5 @@
 function pathSatisfies(conditon, path, objectToTraverse) {
-  const valueFound = path.reduce((accumulator, currentValue) => accumulator[currentValue], {
+  const valueFound = path.reduce((accumulator, currentKey) => accumulator[currentKey], {
     ...objectToTraverse,
   });
 
