@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 import './styles/App.css';
 
@@ -23,10 +24,6 @@ class App extends Component {
     this.setState({ input: event.currentTarget.value });
   }
 
-  handleStrings(stringToEvaluate) {
-    return Boolean(stringToEvaluate.length);
-  }
-
   render() {
     return (
       <div className={this.state.mainColor}>
@@ -38,14 +35,16 @@ class App extends Component {
         </button>
         <p className="button-state">{this.state.on ? 'Yes!' : 'No!'}</p>
 
-        <label htmlFor="heading-input">Change subheading</label>
-        <div className="field-container">
+        <label htmlFor="heading-input">
+          Change subheading
           <input id="heading-input" name="heading-input" value={this.state.input} onChange={this.updateHeading} />
-        </div>
+        </label>
       </div>
     );
   }
 }
+
+App.prototype.handleStrings = stringToEvaluate => Boolean(stringToEvaluate.length);
 
 export class Link extends Component {
   render() {
@@ -55,5 +54,13 @@ export class Link extends Component {
     );
   }
 }
+Link.defaultProps = {
+  hide: false,
+};
+
+Link.propTypes = {
+  hide: PropTypes.bool,
+  address: PropTypes.string.isRequired,
+};
 
 export default App;
