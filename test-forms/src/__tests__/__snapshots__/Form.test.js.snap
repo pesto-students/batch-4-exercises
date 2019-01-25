@@ -9,13 +9,31 @@ exports[`<Form /> matches saved snapshot 1`] = `
   </h2>
   <input
     data-testid="name"
+    onChange={[Function]}
     placeholder="Name"
     type="text"
     value=""
   />
-  <div>
+  <input
+    data-testid="number"
+    onChange={[Function]}
+    placeholder="number"
+    type="number"
+    value=""
+  />
+  <input
+    data-testid="email"
+    onChange={[Function]}
+    placeholder="email"
+    type="email"
+    value=""
+  />
+  <label>
     <input
+      checked={true}
       data-testid="checked"
+      name="checked"
+      onChange={[Function]}
       type="checkbox"
     />
     <p
@@ -24,7 +42,7 @@ exports[`<Form /> matches saved snapshot 1`] = `
     >
       Receive Promotions
     </p>
-  </div>
+  </label>
   <button
     data-testid="submitButton"
     type="submit"

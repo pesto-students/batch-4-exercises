@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved,import/no-extraneous-dependencies */
 import React, { Component } from 'react';
 
 import Form from './components/Form';
