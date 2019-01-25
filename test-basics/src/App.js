@@ -7,6 +7,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.handleClick = this.handleClick.bind(this);
+    this.handleInput = this.handleInput.bind(this);
     this.state = {
       on: false,
       input: "",
