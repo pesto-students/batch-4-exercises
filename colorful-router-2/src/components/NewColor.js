@@ -36,7 +36,10 @@ class NewColor extends Component {
   render() {
     return (
       <div className="new-color">
-        <Prompt when={!this.changesSaved} message="Are you sure you want to leave this page?" />
+        <Prompt
+          when={!this.state.changesSaved}
+          message="Are you sure you want to leave this page?"
+        />
         <form onSubmit={this.handleSubmit}>
           <div>
             <label htmlFor="name">Color name</label>

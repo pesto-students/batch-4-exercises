@@ -28,8 +28,18 @@ class App extends Component {
     this.handleAdd = this.handleAdd.bind(this);
   }
 
+  componentWillMount() {
+    if (localStorage.getItem('colors')) {
+      this.setState({
+        colors: JSON.parse(localStorage.getItem('colors')),
+      });
+    }
+  }
+
   handleAdd(newColor) {
-    this.setState({ colors: [newColor, ...this.state.colors] });
+    this.setState({ colors: [newColor, ...this.state.colors] }, () => {
+      localStorage.setItem('colors', JSON.stringify(this.state.colors));
+    });
   }
 
   render() {
