@@ -48,7 +48,7 @@ class App extends Component {
       <Switch>
         <Route exact path="/" render = {(props) => <ColorList colors = {this.state.colors}/>} />
         {allRoutes}
-    <Route exact path="/colors/new" render = {(props) => <NewColor addColor={this.handleAdd} />} /> 
+        <Route exact path="/colors/new" render = {(props) => <NewColor addColor={this.handleAdd} />} /> 
     </Switch>
     );
   }
