@@ -11,15 +11,17 @@ function updateObject(givenIndex, newValue, list) {
 
   const listCopy = [...list];
 
-  let calculatedIndex = givenIndex;
+  let calculatedIndex;
 
   if (isNegative(givenIndex)) {
     calculatedIndex = list.length + givenIndex;
+  } else {
+    calculatedIndex = givenIndex;
   }
 
-  const isOutOfBounds = isOutOfRange(0, list.length);
+  const isOutOfBoundsOfList = isOutOfRange(0, list.length);
 
-  if (isOutOfBounds(calculatedIndex)) {
+  if (isOutOfBoundsOfList(calculatedIndex)) {
     return listCopy;
   }
 
