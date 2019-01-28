@@ -35,16 +35,16 @@ describe('lastIndexOf', () => {
   });
 
   it('finds function, compared by identity', () => {
-    const f = () => {};
-    const g = () => {};
+    const f = () => { };
+    const g = () => { };
     const list1 = [g, f, g, f];
     expect(lastIndexOf(f, list1)).toBe(3);
   });
 
   it('does not find function, compared by identity', () => {
-    const f = () => {};
-    const g = () => {};
-    const h = () => {};
+    const f = () => { };
+    const g = () => { };
+    const h = () => { };
     const list2 = [g, f];
     expect(lastIndexOf(h, list2)).toBe(-1);
   });
