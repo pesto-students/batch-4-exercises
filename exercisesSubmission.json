@@ -12,8 +12,8 @@
       "rating": null
     },
     "last-index-of": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "update-object": {
       "completed": false,
