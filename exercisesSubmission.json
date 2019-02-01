@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Nitin Patel",
+  "email": "nitinpatel278@gmail.com",
+  "batch": "4",
   "exercises": {
     "cookies": {
       "completed": false,
@@ -12,11 +12,11 @@
       "rating": null
     },
     "local-storage": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "session-storage": {
-      "completed": false,
+      "completed": true,
       "rating": null
     }
   }

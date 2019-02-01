@@ -8,4 +8,3 @@ window.setInterval(() => {
     document.getElementsByClassName('status')[0].innerText = 'Value add successful';
   }
 }, 200);
-
