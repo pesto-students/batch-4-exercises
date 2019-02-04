@@ -1,8 +1,5 @@
-
 function filteredNames(...args) {
   return args;
 }
 
-export {
-  filteredNames,
-};
+export { filteredNames };
