@@ -1,7 +1,8 @@
+import os from 'os';
 import { homeDir } from './homeDir';
 
 describe('Template Test', () => {
   test('Template Test', () => {
-    // Write your own test case
+    expect(os.homedir()).toBe(homeDir());
   });
 });

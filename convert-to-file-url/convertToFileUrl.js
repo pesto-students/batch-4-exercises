@@ -1,8 +1,7 @@
+const url = require('url');
 
-function convertToFileUrl(...args) {
-  return args;
+function convertToFileUrl(fileName) {
+  return url.pathToFileURL(fileName);
 }
 
-export {
-  convertToFileUrl,
-};
+export { convertToFileUrl };
