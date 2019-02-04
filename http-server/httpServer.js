@@ -1,8 +1,11 @@
+import http from 'http';
 
-function httpServer(...args) {
+const server = http.createServer((req, res) => {
+  res.write('Pesto Bootcamp!\n');
+});
+
+function httpServer() {
   return args;
 }
 
-export {
-  httpServer,
-};
+export { httpServer };

@@ -1,7 +1,9 @@
 import { nodeEvent } from './nodeEvent';
 
 describe('Template Test', () => {
-  test('Write your own test cases here', () => {
-    // Write your own tests
+  const name = 'Ravi';
+  const result = nodeEvent(name);
+  it('should get hello name', () => {
+    expect(result).toBe(`hello ${name}`);
   });
 });
