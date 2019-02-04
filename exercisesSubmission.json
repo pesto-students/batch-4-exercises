@@ -4,15 +4,15 @@
   "batch": "4",
   "exercises": {
     "filtered-names": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "filtered-names-recursive": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "http-server": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "is-stream": {
