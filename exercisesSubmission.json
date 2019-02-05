@@ -1,22 +1,22 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Nitin Patel",
+  "email": "nitinpatel278@gmail.com",
+  "batch": "4",
   "exercises": {
     "express-101": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "templating-engine": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "express-forms": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "express-router": {
-      "completed": false,
+      "completed": true,
       "rating": null
     }
   }
