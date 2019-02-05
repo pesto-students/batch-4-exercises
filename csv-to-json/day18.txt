@@ -1,0 +1,6 @@
+Don't mix refactoring and logic changes.
+Discourse is about high level understanding.
+Do code review by asking questions.
+App.use router
+
+
