@@ -2,8 +2,16 @@ const express = require('express');
 
 const app = express();
 
-// 1) Create Routes
+app.get('/', (req, res) => res.send('Hey, I am server response'));
 
-// 2) Start server on port 3000
+app.get('/movie/:title', (req, res) => {
+  const { title } = req.params;
+  return res.send(`My favorite movie is ${title}`);
+});
+
+const PORT = 3000;
+app.listen(PORT, () => {
+  console.log(`Server started on port ${PORT}`);
+});
 
 module.exports = app;
