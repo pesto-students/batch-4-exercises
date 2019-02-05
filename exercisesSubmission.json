@@ -1,14 +1,14 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Vikash kumar",
+  "email": "vikash.bijarnia@outlook.com",
+  "batch": "4",
   "exercises": {
     "express-middlewares": {
       "completed": false,
       "rating": null
     },
     "auth-token-dummy": {
-      "completed": false,
+      "completed": true,
       "rating": null
     }
   }
