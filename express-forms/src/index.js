@@ -2,16 +2,25 @@ const express = require('express');
 
 const app = express();
 
-app.get('/', (req, res) => {
-  return res.redirect('/form-with-get');
+app.set('view engine', 'ejs');
+
+app.use(express.json());
+app.use(express.urlencoded());
+
+app.get('/', (req, res) => res.redirect('/form-with-get'));
+
+app.get('/form-with-get', (req, res) => res.render('form-with-get'));
+
+app.get('/form-with-post', (req, res) => res.render('form-with-post'));
+
+app.get('/submit-form-with-get', (req, res) => {
+  const { first, last } = req.query;
+  return res.send({ first, last });
 });
 
-app.get('/form-with-get', (req, res) => {
-  return res.render('form-with-get');
-});
-
-app.get('/form-with-post', (req, res) => {
-  return res.render('form-with-post');
+app.post('/submit-form-with-post', (req, res) => {
+  const { first, last } = req.body;
+  return res.send({ first, last });
 });
 
 app.listen(3000, () => {
