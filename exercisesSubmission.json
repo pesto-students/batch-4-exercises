@@ -12,7 +12,7 @@
       "rating": null
     },
     "express-forms": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "express-router": {
