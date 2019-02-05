@@ -8,7 +8,6 @@ const languageRoutes = require('../router');
 
 const app = express();
 
-
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
@@ -17,9 +16,7 @@ app.use(express.static('public'));
 
 app.use('/languages', languageRoutes);
 
-app.get('/', (req, res) => {
-  return res.redirect('/languages');
-});
+app.get('/', (req, res) => res.redirect('/languages'));
 
 app.listen(3000, () => {
   console.log('Server is listening on port 3000');
