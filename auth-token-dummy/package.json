@@ -1,0 +1,15 @@
+{
+  "name": "auth-token-dummy",
+  "version": "1.0.0",
+  "description": "Token dummy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.3",
+    "body-parser": "^1.18.3"
+  }
+}
