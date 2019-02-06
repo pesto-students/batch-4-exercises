@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Aditya Saxena",
+  "email": "adityasmksaxena@gmail.com",
+  "batch": "Batch 4",
   "exercises": {
     "basic-mongo-two": {
       "completed": false,
