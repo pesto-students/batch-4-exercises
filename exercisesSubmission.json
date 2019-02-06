@@ -8,7 +8,7 @@
       "rating": null
     },
     "split-lines": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "basic-mongo-one": {
