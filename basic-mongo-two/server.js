@@ -41,8 +41,19 @@ app.post('/projects', (req, res) => {
 });
 
 app.put('/projects/:id', (req, res) => {
-  const project = db.collection('projects').update();
-  res.send(project);
+  db.collection('projects').update(
+    { _id: mongodb.ObjectID(req.params.id) },
+    { developer: req.body.developer, project: req.body.project },
+  );
+  res.status(204);
+  res.send('Updated');
+});
+
+
+app.delete('/projects/:id', (req, res) => {
+  db.collection('projects').deleteOne({ _id: mongodb.ObjectID(req.params.id) });
+  res.status(202);
+  res.send('Delete');
 });
 
 
