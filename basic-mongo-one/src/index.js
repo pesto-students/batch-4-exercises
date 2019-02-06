@@ -1,3 +1,4 @@
+
 /* Q1 (*)
   Return the number of movies in the "movies" collection without using array.length
 */
