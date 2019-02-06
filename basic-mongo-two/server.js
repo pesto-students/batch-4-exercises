@@ -29,9 +29,9 @@ app.get('/projects', (req, res) => {
 });
 
 app.get('/projects/:id', (req, res) => {
-  // console.log(req.params.id);
-  const project = db.collection('projects').findOne({ _id: mongodb.ObjectID(req.params.id) });
-  res.send(project);
+  const project = db.collection('projects').findOne({ _id: mongodb.ObjectID(req.params.id) }, (err, result) => {
+    res.send(result);
+  });
 });
 
 app.post('/projects', (req, res) => {
