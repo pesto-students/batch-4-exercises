@@ -9,7 +9,6 @@ describe('uniqueRandom', () => {
 
     while (--count > 0) { // eslint-disable-line no-plusplus
       current = uniqueRandom10();
-
       if (current === prev || current > 10 || current < 1) {
         expect(true).toBe(false);
       }
