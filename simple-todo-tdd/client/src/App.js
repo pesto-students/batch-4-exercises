@@ -1,9 +1,16 @@
-import React from 'react';
+import React from "react";
 
-import './App.css';
+import "./App.css";
 
 const App = () => (
-  <h1>Hello World</h1>
+  <div>
+    <h1>TODO List</h1>
+    <label for="task">Task Name</label>
+    <input type="text" />
+    <button>Add Task</button>
+    <h2>Tasks :</h2>
+    <ul />
+  </div>
 );
 
 export default App;
