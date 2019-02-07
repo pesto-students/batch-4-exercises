@@ -1,11 +1,13 @@
+const getRandomFromRange = (low, high) => low + Math.floor(Math.random() * high);
+
 function uniqueRandom(low, high) {
   let previouslyReturned;
-  return () => {
-    let randomNumber = low + Math.floor(Math.random() * high);
 
-    while (randomNumber === previouslyReturned) {
-      randomNumber = low + Math.floor(Math.random() * high);
-    }
+  return () => {
+    let randomNumber;
+    do {
+      randomNumber = getRandomFromRange(low, high);
+    } while (randomNumber === previouslyReturned);
 
     previouslyReturned = randomNumber;
     return randomNumber;
