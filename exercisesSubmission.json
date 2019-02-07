@@ -4,11 +4,11 @@
   "batch": "4",
   "exercises": {
     "titleize": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "unique-random": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "simple-todo-tdd": {
