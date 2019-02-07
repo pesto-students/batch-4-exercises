@@ -1,10 +1,10 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Vikash Kumar Bijarnia",
+  "email": "Vikash.Bijarnia@outlook.com",
+  "batch": "4",
   "exercises": {
     "titleize": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "unique-random": {
