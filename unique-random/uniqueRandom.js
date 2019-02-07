@@ -1,7 +1,7 @@
 
 function uniqueRandom(start, end, except = null) {
   let lastResult = except;
-  const effectiveRange = end - start + 1;
+  const effectiveRange = end - start;
 
   return () => {
     const result = Math.ceil(Math.random() * effectiveRange);
