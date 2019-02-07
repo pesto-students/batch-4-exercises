@@ -1,21 +1,21 @@
 const isCharacter = char => char.length === 1 && char.match(/[a-z]/i);
-function titleize(words) {
+function titleize(characters) {
   let shouldCapitalize = true;
-  let newSentence = '';
-  for (const char of words) {
+  let transformedCharacters = '';
+  for (const char of characters) {
     if (isCharacter(char)) {
       if (shouldCapitalize) {
-        newSentence += char.toUpperCase();
+        transformedCharacters += char.toUpperCase();
       } else {
-        newSentence += char.toLowerCase();
+        transformedCharacters += char.toLowerCase();
       }
       shouldCapitalize = false;
     } else {
-      newSentence += char;
+      transformedCharacters += char;
       shouldCapitalize = true;
     }
   }
-  return newSentence;
+  return transformedCharacters;
 }
 
 export { titleize };
